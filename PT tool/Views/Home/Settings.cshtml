@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Settings";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="jumbotron">
+    @using (Html.BeginForm("Settings", "Home", FormMethod.Post))
+    {
+        <div class="form-group">
+            <label for="BearerToken">Bearer Token: </label>
+            <textarea class="form-control" id="BearerToken" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    }
+</div>
