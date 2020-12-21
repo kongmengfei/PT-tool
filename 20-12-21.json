@@ -1,0 +1,1911 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "e95175fd-cfe5-4a71-afe9-8193f30da07a",
+        "name": "AA_老"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Service",
+            "id": "fbbd055b-2b73-4807-bc97-8d1cf0c90cf9",
+            "name": "MSGrpah"
+          },
+          "children": [
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "https://tools.ietf.org/html/rfc7231#section-4.3",
+                  "name": "GET"
+                },
+                "body": {
+                  "bodyType": "Text",
+                  "textBody": ""
+                },
+                "uri": {
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "path": "graph.microsoft.com/v1.0/me/drive"
+                },
+                "id": "1fe4f0c9-8594-4767-95e6-597d4ad52251",
+                "name": "drive",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Authorization",
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IkFRQUJBQUFBQUFDRWZleFh4amFtUWIzT2VHUTRHdWd2QXFndVpGQ0xva0VLbk9FeXhyU0dsUndLV0M0TGxzS1IxdkpoLUI4QV9KSS1PbXdEY2U5U2IxRlNOaFpOUTZBdkM5bXBYMV9SZGlEd0ZoVGhwNURNWGlBQSIsImFsZyI6IlJTMjU2IiwieDV0IjoibmJDd1cxMXczWGtCLXhVYVh3S1JTTGpNSEdRIiwia2lkIjoibmJDd1cxMXczWGtCLXhVYVh3S1JTTGpNSEdRIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC82ZWVmOTQ3OC0wNzgyLTRlOTItYWRjYy0yYjY0OTgyN2IzNzAvIiwiaWF0IjoxNTQ3Nzg5NjMzLCJuYmYiOjE1NDc3ODk2MzMsImV4cCI6MTU0Nzc5MzUzMywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhLQUFBQWV1L3B3OUNySUVUdlZyMFI0NXhGOTFTdnU1L0hqQm4wSUp2cE0wVTVyTFU9IiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJia3dlYlRlc3QiLCJhcHBpZCI6ImRhOGVjODJjLTU0NTQtNDIzNS05NDFkLTk2ZDQwNzU3MTQ0ZSIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiam1hdGVyIiwiZ2l2ZW5fbmFtZSI6ImJha2VyIiwiaXBhZGRyIjoiMTY3LjIyMC4yNTUuNTMiLCJuYW1lIjoiYmFrZXIgam1hdGVyIiwib2lkIjoiYmIxMTdmNGYtZDFlMS00YmE4LTg0NTItMWZiZmVkNDQ2N2Y2IiwicGxhdGYiOiIzIiwicHVpZCI6IjEwMDNCRkZEQTMwQjFFNjEiLCJzY3AiOiJBbGxTaXRlcy5GdWxsQ29udHJvbCBBbGxTaXRlcy5NYW5hZ2UgQWxsU2l0ZXMuUmVhZCBBbGxTaXRlcy5Xcml0ZSBNeUZpbGVzLlJlYWQgTXlGaWxlcy5Xcml0ZSBTaXRlcy5TZWFyY2guQWxsIFRlcm1TdG9yZS5SZWFkLkFsbCBUZXJtU3RvcmUuUmVhZFdyaXRlLkFsbCBVc2VyLlJlYWQgVXNlci5SZWFkLkFsbCBVc2VyLlJlYWRXcml0ZS5BbGwiLCJzdWIiOiJRY2FTbEh2eUJYMm5kODNpUzhTdFlvRU0xRFhIV0JfdjVZM2xWbzVCVmRZIiwidGlkIjoiNmVlZjk0NzgtMDc4Mi00ZTkyLWFkY2MtMmI2NDk4MjdiMzcwIiwidW5pcXVlX25hbWUiOiJiYWtlckBqbWFzdGVyLm9ubWljcm9zb2Z0LmNvbSIsInVwbiI6ImJha2VyQGptYXN0ZXIub25taWNyb3NvZnQuY29tIiwidXRpIjoiSllwSzUtdVdCVXV2TU54TjNpb1hBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiNjJlOTAzOTQtNjlmNS00MjM3LTkxOTAtMDEyMTc3MTQ1ZTEwIl0sInhtc190Y2R0IjoxNDgzNjE2NjQ4fQ.bEXtm0YK5UIKs6vBL7GfTnreofXm3S8Xpe0B5OGEx1k0ISlckt5cntg7jXYcwC8dTqxaYvBuWkFZgzidFJW5dnfHCDW172ZH3axJkCw9QYMRxFiDjJXikMcZJKIDPJavCI5YDjVnXR3fMOBm_nA8WE0uVLzPakgaYBTvXjea1d9pJCnfcWaiIz9uYQy-KHDJVGOXOaLYJ6vEMlRE4SBYo5Bfr50XSN5eANiomxzNtBghGqan9kpCOfZQsuYY2wBjJ16xrkQfRgWNQ68aK3X7AOhg6o1BMAQIx8xdZ4f6HT1pOmiJkLOpT3gGhCCnRm2dYTeb_pwtZ4L4axCagW9VPQ"
+                  }
+                ],
+                "assertions": []
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+                  "name": "GET"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": []
+                  },
+                  "bodyType": "Text"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "graph.microsoft.com",
+                  "path": "/v1.0/subscriptions"
+                },
+                "id": "443da214-b79e-4f79-92bb-2128992345cf",
+                "name": "subscribe",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Authorization",
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IlVnV21fa1JNODBWSXVwVGV0TE00QXNLb004M3JNaUlMX05RQnlwczdhVWMiLCJhbGciOiJSUzI1NiIsIng1dCI6ImtnMkxZczJUMENUaklmajRydDZKSXluZW4zOCIsImtpZCI6ImtnMkxZczJUMENUaklmajRydDZKSXluZW4zOCJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC84YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYvIiwiaWF0IjoxNjA2OTcwMDY3LCJuYmYiOjE2MDY5NzAwNjcsImV4cCI6MTYwNjk3Mzk2NywiYWNjdCI6MCwiYWNyIjoiMSIsImFjcnMiOlsidXJuOnVzZXI6cmVnaXN0ZXJzZWN1cml0eWluZm8iLCJ1cm46bWljcm9zb2Z0OnJlcTEiLCJ1cm46bWljcm9zb2Z0OnJlcTIiLCJ1cm46bWljcm9zb2Z0OnJlcTMiLCJjMSIsImMyIiwiYzMiLCJjNCIsImM1IiwiYzYiLCJjNyIsImM4IiwiYzkiLCJjMTAiLCJjMTEiLCJjMTIiLCJjMTMiLCJjMTQiLCJjMTUiLCJjMTYiLCJjMTciLCJjMTgiLCJjMTkiLCJjMjAiLCJjMjEiLCJjMjIiLCJjMjMiLCJjMjQiLCJjMjUiXSwiYWlvIjoiRTJSZ1lNZzhVc3VwczBpOTFTY3V0emsyVlh0WmJmSnJuY0RRZFRQWHBmemM1ODFhZFI0QSIsImFtciI6WyJwd2QiXSwiYXBwX2Rpc3BsYXluYW1lIjoiR3JhcGggZXhwbG9yZXIgKG9mZmljaWFsIHNpdGUpIiwiYXBwaWQiOiJkZThiYzhiNS1kOWY5LTQ4YjEtYThhZC1iNzQ4ZGE3MjUwNjQiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6ImNoYXQiLCJnaXZlbl9uYW1lIjoiZGV2IiwiaWR0eXAiOiJ1c2VyIiwiaXBhZGRyIjoiMTY3LjIyMC4yNTUuMzciLCJuYW1lIjoiSVNWRGV2Q2hhdCIsIm9pZCI6IjczZDcyMTczLTczMmItNGIxOS1hOWM4LWI5YjBjNWUwYTU2NyIsInBsYXRmIjoiMyIsInB1aWQiOiIxMDAzQkZGREE4MEUwM0M2IiwicmgiOiIwLkFTMEFBZzFBaW1NeUIwMlJBVGpHaHl6LTc3WElpOTc1MmJGSXFLMjNTTnB5VUdRdEFDQS4iLCJzY3AiOiJDYWxlbmRhcnMuUmVhZFdyaXRlIENvbnRhY3RzLlJlYWRXcml0ZSBGaWxlcy5SZWFkV3JpdGUuQWxsIEdyb3VwLlJlYWRXcml0ZS5BbGwgTWFpbC5SZWFkV3JpdGUgTm90ZXMuUmVhZFdyaXRlLkFsbCBvcGVuaWQgUGVvcGxlLlJlYWQgcHJvZmlsZSBTaXRlcy5NYW5hZ2UuQWxsIFNpdGVzLlJlYWRXcml0ZS5BbGwgVGFza3MuUmVhZFdyaXRlIFVzZXIuUmVhZCBVc2VyLlJlYWRCYXNpYy5BbGwgVXNlci5SZWFkV3JpdGUgZW1haWwiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJadmFCbGxDZzAxazVEM2hFRG93UUJ0SG5vS0JQQXUzc1YxTERnSjNyeFZrIiwidGVuYW50X3JlZ2lvbl9zY29wZSI6Ik5BIiwidGlkIjoiOGE0MDBkMDItMzI2My00ZDA3LTkxMDEtMzhjNjg3MmNmZWVmIiwidW5pcXVlX25hbWUiOiJhZG1pbkBJU1ZEZXZDaGF0Lm9ubWljcm9zb2Z0LmNvbSIsInVwbiI6ImFkbWluQElTVkRldkNoYXQub25taWNyb3NvZnQuY29tIiwidXRpIjoieFIyTEd5a2wtazJEOXpJcklBdzJBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiNjJlOTAzOTQtNjlmNS00MjM3LTkxOTAtMDEyMTc3MTQ1ZTEwIiwiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19zdCI6eyJzdWIiOiJNYTNaMFNJMGRUb2tpbmVzMVNVMFNCYzdXNk90dnozQV96V0NvTjktN2VRIn0sInhtc190Y2R0IjoxNTE3NDcxNDg0fQ.utEvd3m2Gqqlzq1zQ3H_2foqtUu3wZ9AnJFHtGEuHZOnYwiHmR-fIKwjhx55ZPXvmfDORipB8HV7rdWhOBn0YyaCugnZbH4FAWnHGEt2KiXCR2tqIcIhmkua62lyZ-NlHIzLvr41fFCxRqp0i8uQQC9vIlUJFiPIercppwFxd1SHk1ny3XntNdoprU1R410atTQSAkhOcacSYYWTijSRXzSVH9-X0aWbYP3jSiERJBlUWA_kpcAd6un6iSPU5SDBmr_dvtIKObNzcaf2fCFZribPsPKw_hZ0-aLya9PXVUwIuKKZkYXKqKZX_goO17ZQY3xhxvqQvV5rFbkMpzpJ8Q"
+                  }
+                ]
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": []
+                  },
+                  "bodyType": "Text",
+                  "textBody": "{\n   \"changeType\": \"updated\",\n   \"notificationUrl\": \"https://dsfaff.azurewebsites.net/api/HttpTrigger1\",\n   \"resource\": \"sites/isvdevchat.sharepoint.com,5ae427d1-c859-4c58-97c4-e20ad27b850b,352d1542-3d0a-4f99-a529-723e41552082/lists/816aa727-0444-4f15-af20-46c0ec1f60c1\",\n   \"expirationDateTime\":\"2020-12-06T18:23:45.9356913Z\",\n   \"clientState\": \"secretClientValue\",\n   \"latestSupportedTlsVersion\": \"v1_2\"\n}"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "graph.microsoft.com",
+                  "path": "/v1.0/subscriptions"
+                },
+                "id": "f9148308-9720-4477-8509-b5aa1aadcaec",
+                "name": "subscribe-Create",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Authorization",
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IlVnV21fa1JNODBWSXVwVGV0TE00QXNLb004M3JNaUlMX05RQnlwczdhVWMiLCJhbGciOiJSUzI1NiIsIng1dCI6ImtnMkxZczJUMENUaklmajRydDZKSXluZW4zOCIsImtpZCI6ImtnMkxZczJUMENUaklmajRydDZKSXluZW4zOCJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC84YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYvIiwiaWF0IjoxNjA2OTcwMDY3LCJuYmYiOjE2MDY5NzAwNjcsImV4cCI6MTYwNjk3Mzk2NywiYWNjdCI6MCwiYWNyIjoiMSIsImFjcnMiOlsidXJuOnVzZXI6cmVnaXN0ZXJzZWN1cml0eWluZm8iLCJ1cm46bWljcm9zb2Z0OnJlcTEiLCJ1cm46bWljcm9zb2Z0OnJlcTIiLCJ1cm46bWljcm9zb2Z0OnJlcTMiLCJjMSIsImMyIiwiYzMiLCJjNCIsImM1IiwiYzYiLCJjNyIsImM4IiwiYzkiLCJjMTAiLCJjMTEiLCJjMTIiLCJjMTMiLCJjMTQiLCJjMTUiLCJjMTYiLCJjMTciLCJjMTgiLCJjMTkiLCJjMjAiLCJjMjEiLCJjMjIiLCJjMjMiLCJjMjQiLCJjMjUiXSwiYWlvIjoiRTJSZ1lNZzhVc3VwczBpOTFTY3V0emsyVlh0WmJmSnJuY0RRZFRQWHBmemM1ODFhZFI0QSIsImFtciI6WyJwd2QiXSwiYXBwX2Rpc3BsYXluYW1lIjoiR3JhcGggZXhwbG9yZXIgKG9mZmljaWFsIHNpdGUpIiwiYXBwaWQiOiJkZThiYzhiNS1kOWY5LTQ4YjEtYThhZC1iNzQ4ZGE3MjUwNjQiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6ImNoYXQiLCJnaXZlbl9uYW1lIjoiZGV2IiwiaWR0eXAiOiJ1c2VyIiwiaXBhZGRyIjoiMTY3LjIyMC4yNTUuMzciLCJuYW1lIjoiSVNWRGV2Q2hhdCIsIm9pZCI6IjczZDcyMTczLTczMmItNGIxOS1hOWM4LWI5YjBjNWUwYTU2NyIsInBsYXRmIjoiMyIsInB1aWQiOiIxMDAzQkZGREE4MEUwM0M2IiwicmgiOiIwLkFTMEFBZzFBaW1NeUIwMlJBVGpHaHl6LTc3WElpOTc1MmJGSXFLMjNTTnB5VUdRdEFDQS4iLCJzY3AiOiJDYWxlbmRhcnMuUmVhZFdyaXRlIENvbnRhY3RzLlJlYWRXcml0ZSBGaWxlcy5SZWFkV3JpdGUuQWxsIEdyb3VwLlJlYWRXcml0ZS5BbGwgTWFpbC5SZWFkV3JpdGUgTm90ZXMuUmVhZFdyaXRlLkFsbCBvcGVuaWQgUGVvcGxlLlJlYWQgcHJvZmlsZSBTaXRlcy5NYW5hZ2UuQWxsIFNpdGVzLlJlYWRXcml0ZS5BbGwgVGFza3MuUmVhZFdyaXRlIFVzZXIuUmVhZCBVc2VyLlJlYWRCYXNpYy5BbGwgVXNlci5SZWFkV3JpdGUgZW1haWwiLCJzaWduaW5fc3RhdGUiOlsia21zaSJdLCJzdWIiOiJadmFCbGxDZzAxazVEM2hFRG93UUJ0SG5vS0JQQXUzc1YxTERnSjNyeFZrIiwidGVuYW50X3JlZ2lvbl9zY29wZSI6Ik5BIiwidGlkIjoiOGE0MDBkMDItMzI2My00ZDA3LTkxMDEtMzhjNjg3MmNmZWVmIiwidW5pcXVlX25hbWUiOiJhZG1pbkBJU1ZEZXZDaGF0Lm9ubWljcm9zb2Z0LmNvbSIsInVwbiI6ImFkbWluQElTVkRldkNoYXQub25taWNyb3NvZnQuY29tIiwidXRpIjoieFIyTEd5a2wtazJEOXpJcklBdzJBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiNjJlOTAzOTQtNjlmNS00MjM3LTkxOTAtMDEyMTc3MTQ1ZTEwIiwiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19zdCI6eyJzdWIiOiJNYTNaMFNJMGRUb2tpbmVzMVNVMFNCYzdXNk90dnozQV96V0NvTjktN2VRIn0sInhtc190Y2R0IjoxNTE3NDcxNDg0fQ.utEvd3m2Gqqlzq1zQ3H_2foqtUu3wZ9AnJFHtGEuHZOnYwiHmR-fIKwjhx55ZPXvmfDORipB8HV7rdWhOBn0YyaCugnZbH4FAWnHGEt2KiXCR2tqIcIhmkua62lyZ-NlHIzLvr41fFCxRqp0i8uQQC9vIlUJFiPIercppwFxd1SHk1ny3XntNdoprU1R410atTQSAkhOcacSYYWTijSRXzSVH9-X0aWbYP3jSiERJBlUWA_kpcAd6un6iSPU5SDBmr_dvtIKObNzcaf2fCFZribPsPKw_hZ0-aLya9PXVUwIuKKZkYXKqKZX_goO17ZQY3xhxvqQvV5rFbkMpzpJ8Q"
+                  },
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/json"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "entity": {
+            "type": "Service",
+            "id": "466dc679-3b4a-49ff-937f-3c5776695501",
+            "name": "isvcrm"
+          },
+          "children": [
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "https://tools.ietf.org/html/rfc7231#section-4.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "bodyType": "Text",
+                  "textBody": "grant_type=client_credentials&client_id=17d19316-49b7-48f5-834e-8a143efd54b6&client_secret=KYTGYoR41v7Yvl1G6KU9uhIvv6%2B20pkRGCKmGn9UTHE%3D&resource=https%3A%2F%2Fdevchat.api.crm.dynamics.com%2F"
+                },
+                "uri": {
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "path": "login.microsoftonline.com/e4c9ab4e-bd27-40d5-8459-230ba2a757fb/oauth2/token"
+                },
+                "id": "4dd3d25f-b4d8-49d0-aac5-18e43daaa886",
+                "name": "App-Oauth-S2S",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                  }
+                ],
+                "assertions": []
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "https://tools.ietf.org/html/rfc7231#section-4.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "bodyType": "Text",
+                  "textBody": "{\"EntityTypeCode\":112,\"SelectedTemplate\":{\"@odata.type\":\"Microsoft.Dynamics.CRM.personaldocumenttemplate\",\"personaldocumenttemplateid\":\"1d3735a5-a603-e911-a94b-000d3a36e990\"},\"SelectedRecords\":\"[\\\"{84542857-1203-E911-A949-000D3A36EC4E}\\\"]\"}"
+                },
+                "uri": {
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "path": "isvdevchat.crm.dynamics.com/api/data/v9.0/ExportWordDocument"
+                },
+                "id": "187eabd3-18a3-4c67-bc7f-9408982e2a98",
+                "name": "ExportWordDocument-api",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/json; odata.metadata=minimal"
+                  }
+                ],
+                "assertions": []
+              }
+            }
+          ]
+        },
+        {
+          "entity": {
+            "type": "Service",
+            "id": "9215dc4d-15d4-4ba6-ba0b-ff42bef496a1",
+            "name": "office365 Video-Rest API"
+          },
+          "children": [
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "https://tools.ietf.org/html/rfc7231#section-4.3",
+                  "name": "GET"
+                },
+                "body": {
+                  "bodyType": "Text",
+                  "textBody": ""
+                },
+                "uri": {
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "path": "jmaster.sharepoint.com/portals/hub/_api/VideoService/CanEditChannels"
+                },
+                "id": "4f9c52db-9d60-431b-8f96-8fdcd8dcd0a3",
+                "name": "CanEditChannels",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Authorization",
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Im5iQ3dXMTF3M1hrQi14VWFYd0tSU0xqTUhHUSIsImtpZCI6Im5iQ3dXMTF3M1hrQi14VWFYd0tSU0xqTUhHUSJ9.eyJhdWQiOiJodHRwczovL2ptYXN0ZXIuc2hhcmVwb2ludC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC82ZWVmOTQ3OC0wNzgyLTRlOTItYWRjYy0yYjY0OTgyN2IzNzAvIiwiaWF0IjoxNTQ4MDUxNzY3LCJuYmYiOjE1NDgwNTE3NjcsImV4cCI6MTU0ODA1NTY2NywiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhLQUFBQXpDbDVZQTlqbDk4SlFLdit4MUEyRDlkb2plc3FCcHB3SnRGMDY4Y2tOMW5ndWJiSWp1RU9HNWVmaUEwTXhncGwiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6ImJrd2ViVGVzdCIsImFwcGlkIjoiZGE4ZWM4MmMtNTQ1NC00MjM1LTk0MWQtOTZkNDA3NTcxNDRlIiwiYXBwaWRhY3IiOiIxIiwiZmFtaWx5X25hbWUiOiJqbWF0ZXIiLCJnaXZlbl9uYW1lIjoiYmFrZXIiLCJpcGFkZHIiOiIxNjcuMjIwLjI1NS4xMTciLCJuYW1lIjoiYmFrZXIgam1hdGVyIiwib2lkIjoiYmIxMTdmNGYtZDFlMS00YmE4LTg0NTItMWZiZmVkNDQ2N2Y2IiwicHVpZCI6IjEwMDNCRkZEQTMwQjFFNjEiLCJzY3AiOiJBbGxTaXRlcy5GdWxsQ29udHJvbCBBbGxTaXRlcy5NYW5hZ2UgQWxsU2l0ZXMuUmVhZCBBbGxTaXRlcy5Xcml0ZSBNeUZpbGVzLlJlYWQgTXlGaWxlcy5Xcml0ZSBTaXRlcy5TZWFyY2guQWxsIFRlcm1TdG9yZS5SZWFkLkFsbCBUZXJtU3RvcmUuUmVhZFdyaXRlLkFsbCBVc2VyLlJlYWQuQWxsIFVzZXIuUmVhZFdyaXRlLkFsbCIsInNpZCI6IjBhODg5YWY0LTVjMTYtNDY1Mi04NTIwLWQ1YjRlYTdjNjNjOSIsInN1YiI6Ik9vaHhmTTJ4QnZ5NlU3aHNvRzlQclhKclNlZmptY3BVc2RBTzJQQUlkNjQiLCJ0aWQiOiI2ZWVmOTQ3OC0wNzgyLTRlOTItYWRjYy0yYjY0OTgyN2IzNzAiLCJ1bmlxdWVfbmFtZSI6ImJha2VyQGptYXN0ZXIub25taWNyb3NvZnQuY29tIiwidXBuIjoiYmFrZXJAam1hc3Rlci5vbm1pY3Jvc29mdC5jb20iLCJ1dGkiOiI3TVRGZzVuWFhVcTBrbUY4cTk0NkFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyI2MmU5MDM5NC02OWY1LTQyMzctOTE5MC0wMTIxNzcxNDVlMTAiXX0.Ew8SVqchtS-852cX6OAVwLXhAuja0pPRwfopWRFMIPfx7HmE8xvt4ROi2ZnqzY-P4_JrKR9FBNSMTSh6GN0SoYnkhUBsDNK02YSWPoFiiVau4h8LBW-eWDn9mYdh3rVCx_O1smgAwQeYdeJqi9HWSeZjZwEJ8a1rewqRIm9TIB2QVA3gmvKp-_TQOKavdGdFxOq7N1ADNUR_aNU6m2rUH2bdyr347krcvnsl-3qUd5qDU6n44lGHh-k2nTNASt27Um0DgX3xKZs7jjeoSp1UPbGTOKefQkOrAaPPeGXK_yNe5KKBIewtw_RUk32grlrLrzQidlrBmvQf4G7MxGGCpg"
+                  }
+                ],
+                "assertions": []
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "https://tools.ietf.org/html/rfc7231#section-4.3",
+                  "name": "GET"
+                },
+                "body": {
+                  "bodyType": "Text",
+                  "textBody": ""
+                },
+                "uri": {
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "path": "jmaster.sharepoint.com/portals/hub/_api/VideoService/Channels('af889cff-0415-4c60-914b-2a6e2e35dfb5')/Videos('3ca2c7ab-a65e-4487-ba7b-9df40e61218f')"
+                },
+                "id": "27da4f40-2520-4287-a611-f34d432d4089",
+                "name": "getvideo",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Authorization",
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Im5iQ3dXMTF3M1hrQi14VWFYd0tSU0xqTUhHUSIsImtpZCI6Im5iQ3dXMTF3M1hrQi14VWFYd0tSU0xqTUhHUSJ9.eyJhdWQiOiJodHRwczovL2ptYXN0ZXIuc2hhcmVwb2ludC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC82ZWVmOTQ3OC0wNzgyLTRlOTItYWRjYy0yYjY0OTgyN2IzNzAvIiwiaWF0IjoxNTQ4MjI0OTAyLCJuYmYiOjE1NDgyMjQ5MDIsImV4cCI6MTU0ODIyODgwMiwiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhLQUFBQU5iTHV4RDJ6MjMvZlpEMFBsUFlTS0x6ZEE1Vks5dFE2U2FqM3RHMDBOc3dUSUkrWjhqUlpFYkNMWDkzN2JobHEiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6ImJrd2ViVGVzdCIsImFwcGlkIjoiZGE4ZWM4MmMtNTQ1NC00MjM1LTk0MWQtOTZkNDA3NTcxNDRlIiwiYXBwaWRhY3IiOiIxIiwiZmFtaWx5X25hbWUiOiJqbWF0ZXIiLCJnaXZlbl9uYW1lIjoiYmFrZXIiLCJpcGFkZHIiOiIxNjcuMjIwLjI1NS4xMTciLCJuYW1lIjoiYmFrZXIgam1hdGVyIiwib2lkIjoiYmIxMTdmNGYtZDFlMS00YmE4LTg0NTItMWZiZmVkNDQ2N2Y2IiwicHVpZCI6IjEwMDNCRkZEQTMwQjFFNjEiLCJzY3AiOiJBbGxTaXRlcy5GdWxsQ29udHJvbCBBbGxTaXRlcy5NYW5hZ2UgQWxsU2l0ZXMuUmVhZCBBbGxTaXRlcy5Xcml0ZSBNeUZpbGVzLlJlYWQgTXlGaWxlcy5Xcml0ZSBTaXRlcy5TZWFyY2guQWxsIFRlcm1TdG9yZS5SZWFkLkFsbCBUZXJtU3RvcmUuUmVhZFdyaXRlLkFsbCBVc2VyLlJlYWQuQWxsIFVzZXIuUmVhZFdyaXRlLkFsbCIsInNpZCI6IjI3NDMyM2E1LTM4NDAtNGU0OC1hYmJlLWU3MDg2OTMzMWFkNCIsInN1YiI6Ik9vaHhmTTJ4QnZ5NlU3aHNvRzlQclhKclNlZmptY3BVc2RBTzJQQUlkNjQiLCJ0aWQiOiI2ZWVmOTQ3OC0wNzgyLTRlOTItYWRjYy0yYjY0OTgyN2IzNzAiLCJ1bmlxdWVfbmFtZSI6ImJha2VyQGptYXN0ZXIub25taWNyb3NvZnQuY29tIiwidXBuIjoiYmFrZXJAam1hc3Rlci5vbm1pY3Jvc29mdC5jb20iLCJ1dGkiOiIwNGg4V3dhSmVrVzRDc3dqU0ZBRUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyI2MmU5MDM5NC02OWY1LTQyMzctOTE5MC0wMTIxNzcxNDVlMTAiXX0.kdOIVpg0ickrDyRIWUuWVbwkSAdJLAnIdTE3fugPWpQTbXKKrdo4UO9i8wgQ84GQBVDotf_hKo-pcIcoKwDHqMkB0Xtb3i1erwhJ3DPoePuXLp2ZNRS8pR_reZpDHKAfRauKGSC-Kg-_ieOzXR8BXuSURNoxOo56MDAgcV6ErQmbd976G5oVa1gGAOv5Da8DCSqupDFs32WKeu-MVcz4Ekhw-q1oe4_95KW6PwdUOCncVcFNic5Va1tQsMM584Pk99ym8HqG_vtNul07oEJRRzkG_E7_RfuZXtENoiNPZEtva1jeLvaQu0gs5IO6R-fleYYVq1nLZPoTBi1zj4U6Eg"
+                  },
+                  {
+                    "enabled": true,
+                    "name": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "assertions": []
+              }
+            }
+          ]
+        },
+        {
+          "entity": {
+            "type": "Service",
+            "id": "9fb3e08c-f10e-45ee-bf72-f882c3c2a641",
+            "name": "outlookrest"
+          },
+          "children": [
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "https://tools.ietf.org/html/rfc7231#section-4.3",
+                  "name": "GET"
+                },
+                "body": {
+                  "bodyType": "Text",
+                  "textBody": ""
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "name": "startDateTime",
+                        "value": "2019-03-28T00:00:00"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "endDateTime",
+                        "value": "2019-04-02T00:00:00"
+                      }
+                    ]
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "outlook.office.com",
+                  "path": "/api/v2.0/users/allenw@jmaster.onmicrosoft.com/calendarview"
+                },
+                "id": "0adeea5e-7581-45c8-af22-67c0445d9300",
+                "name": "get calendar view",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Authorization",
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1zeE1KTUxDSURXTVRQdlp5SjZ0eC1DRHh3MCIsImtpZCI6Ii1zeE1KTUxDSURXTVRQdlp5SjZ0eC1DRHh3MCJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzZlZWY5NDc4LTA3ODItNGU5Mi1hZGNjLTJiNjQ5ODI3YjM3MC8iLCJpYXQiOjE1NDg5OTAxMzcsIm5iZiI6MTU0ODk5MDEzNywiZXhwIjoxNTQ4OTk0MDM3LCJhaW8iOiI0MkpnWUhpZEVIc3M4NHZLLzZKVy9TWHJaN29VQUFBPSIsImFwcF9kaXNwbGF5bmFtZSI6ImJrd2ViVGVzdCIsImFwcGlkIjoiZGE4ZWM4MmMtNTQ1NC00MjM1LTk0MWQtOTZkNDA3NTcxNDRlIiwiYXBwaWRhY3IiOiIxIiwiaWRwIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNmVlZjk0NzgtMDc4Mi00ZTkyLWFkY2MtMmI2NDk4MjdiMzcwLyIsIm9pZCI6ImY3ZmQzMTM2LTRhOTYtNDMwMy1hOTcyLWMxZjFlYzJhMDFjNCIsInJvbGVzIjpbIlVzZXIuUmVhZC5BbGwiLCJDYWxlbmRhcnMuUmVhZCIsIlVzZXIuUmVhZEJhc2ljLkFsbCIsIkNhbGVuZGFycy5SZWFkV3JpdGUuQWxsIiwiQ2FsZW5kYXJzLlJlYWQuQWxsIl0sInNpZCI6IjAzMjNjZDExLThmNzAtNDk5NC1hMWJiLTU0NjEwMWEwOGQyZSIsInN1YiI6ImY3ZmQzMTM2LTRhOTYtNDMwMy1hOTcyLWMxZjFlYzJhMDFjNCIsInRpZCI6IjZlZWY5NDc4LTA3ODItNGU5Mi1hZGNjLTJiNjQ5ODI3YjM3MCIsInV0aSI6IjA1V0R4c0FtUWstMEtiMlhiUThCQUEiLCJ2ZXIiOiIxLjAifQ.rjWGp3IMO_dDQXgTo9pvJf1886-_qwtJuoYtFx3gkz4ESLZX4cxLIYQhSOy3R5WWfGmR2wV_CwPsGOAFMvoUGZOIMF4TFEUisC3n9yU_Q_8WIQiXF2ouZ-tESVUaXoNnwuosseMDYOFASVpgV0r-eoORKsyC2fRMArsLfR9TegRwwyEoLdUG6OWLkdQXYUx8SjAqNaE8fjouILNQh9N33rl7cY4OabWghRqOMjdaaOunvAA7d6Zv00N84BPxBwZ_ZgKYezR_7yPBcXBKjJJmpj66-XakYIFS1fhUdW_WTDACPqU9LzAuNYPc7N70nW9p8h9yWObuwOxqjgZlpfbHbw"
+                  },
+                  {
+                    "enabled": true,
+                    "name": "Prefer",
+                    "value": "outlook.timezone=\"GMT Standard Time\""
+                  }
+                ],
+                "assertions": []
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "https://tools.ietf.org/html/rfc7231#section-4.3",
+                  "name": "GET"
+                },
+                "body": {
+                  "bodyType": "Text",
+                  "textBody": ""
+                },
+                "uri": {
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "path": "outlook.office.com/api/v2.0/users/allenw@jmaster.onmicrosoft.com/events"
+                },
+                "id": "3aa3dae2-fd60-4152-9a3d-0b22f4a7094c",
+                "name": "me",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Authorization",
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1zeE1KTUxDSURXTVRQdlp5SjZ0eC1DRHh3MCIsImtpZCI6Ii1zeE1KTUxDSURXTVRQdlp5SjZ0eC1DRHh3MCJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzZlZWY5NDc4LTA3ODItNGU5Mi1hZGNjLTJiNjQ5ODI3YjM3MC8iLCJpYXQiOjE1NDg5OTAxMzcsIm5iZiI6MTU0ODk5MDEzNywiZXhwIjoxNTQ4OTk0MDM3LCJhaW8iOiI0MkpnWUhpZEVIc3M4NHZLLzZKVy9TWHJaN29VQUFBPSIsImFwcF9kaXNwbGF5bmFtZSI6ImJrd2ViVGVzdCIsImFwcGlkIjoiZGE4ZWM4MmMtNTQ1NC00MjM1LTk0MWQtOTZkNDA3NTcxNDRlIiwiYXBwaWRhY3IiOiIxIiwiaWRwIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNmVlZjk0NzgtMDc4Mi00ZTkyLWFkY2MtMmI2NDk4MjdiMzcwLyIsIm9pZCI6ImY3ZmQzMTM2LTRhOTYtNDMwMy1hOTcyLWMxZjFlYzJhMDFjNCIsInJvbGVzIjpbIlVzZXIuUmVhZC5BbGwiLCJDYWxlbmRhcnMuUmVhZCIsIlVzZXIuUmVhZEJhc2ljLkFsbCIsIkNhbGVuZGFycy5SZWFkV3JpdGUuQWxsIiwiQ2FsZW5kYXJzLlJlYWQuQWxsIl0sInNpZCI6IjAzMjNjZDExLThmNzAtNDk5NC1hMWJiLTU0NjEwMWEwOGQyZSIsInN1YiI6ImY3ZmQzMTM2LTRhOTYtNDMwMy1hOTcyLWMxZjFlYzJhMDFjNCIsInRpZCI6IjZlZWY5NDc4LTA3ODItNGU5Mi1hZGNjLTJiNjQ5ODI3YjM3MCIsInV0aSI6IjA1V0R4c0FtUWstMEtiMlhiUThCQUEiLCJ2ZXIiOiIxLjAifQ.rjWGp3IMO_dDQXgTo9pvJf1886-_qwtJuoYtFx3gkz4ESLZX4cxLIYQhSOy3R5WWfGmR2wV_CwPsGOAFMvoUGZOIMF4TFEUisC3n9yU_Q_8WIQiXF2ouZ-tESVUaXoNnwuosseMDYOFASVpgV0r-eoORKsyC2fRMArsLfR9TegRwwyEoLdUG6OWLkdQXYUx8SjAqNaE8fjouILNQh9N33rl7cY4OabWghRqOMjdaaOunvAA7d6Zv00N84BPxBwZ_ZgKYezR_7yPBcXBKjJJmpj66-XakYIFS1fhUdW_WTDACPqU9LzAuNYPc7N70nW9p8h9yWObuwOxqjgZlpfbHbw"
+                  }
+                ],
+                "assertions": []
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "https://tools.ietf.org/html/rfc7231#section-4.3",
+                  "name": "PATCH"
+                },
+                "body": {
+                  "bodyType": "Text",
+                  "textBody": "{\n   \"OriginalEndTimeZone\":\"GMT Standard Time\",\n   \"OriginalStartTimeZone\":\"GMT Standard Time\",\n   \"Recurrence\":{\n      \"Pattern\":{\n         \"Type\":\"Daily\",\n         \"Interval\":1,\n         \"Month\":0,\n         \"DayOfMonth\":0,\n         \"FirstDayOfWeek\":\"Sunday\",\n         \"Index\":\"First\"\n      },\n      \"Range\":{\n         \"Type\":\"EndDate\",\n         \"StartDate\":\"2019-03-02\",\n         \"EndDate\":\"2019-04-03\",\n         \"RecurrenceTimeZone\":\"GMT Standard Time\",\n         \"NumberOfOccurrences\":0\n      }\n   }\n}"
+                },
+                "uri": {
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "path": "outlook.office.com/api/v2.0/users/allenw@jmaster.onmicrosoft.com/events/AAMkADVlZDFmZjIxLTlmNTEtNGVjYy1iZmE1LTQwN2QxYjk3ZmFkYgBGAAAAAAAPKbGi4byQTKq9nTzF1R_zBwDmtKBGS1AvQIOR5X-31QyOAAAAAAENAADmtKBGS1AvQIOR5X-31QyOAAAnkZ4RAAA="
+                },
+                "id": "cd370398-a948-4644-adca-f64fe7a61ff6",
+                "name": "update event",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "enabled": true,
+                    "name": "Prefer",
+                    "value": "outlook.timezone=\"GMT Standard Time\""
+                  },
+                  {
+                    "enabled": true,
+                    "name": "Authorization",
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1zeE1KTUxDSURXTVRQdlp5SjZ0eC1DRHh3MCIsImtpZCI6Ii1zeE1KTUxDSURXTVRQdlp5SjZ0eC1DRHh3MCJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzZlZWY5NDc4LTA3ODItNGU5Mi1hZGNjLTJiNjQ5ODI3YjM3MC8iLCJpYXQiOjE1NDg5OTI5MDksIm5iZiI6MTU0ODk5MjkwOSwiZXhwIjoxNTQ4OTk2ODA5LCJhY2N0IjowLCJhY3IiOiIxIiwiYWlvIjoiNDJKZ1lIZzhjMUtHU1duRGo3USs1VjE3cEhjYzE3andadktSZGNITXpqazF5bTNtazF3QSIsImFtciI6WyJwd2QiXSwiYXBwX2Rpc3BsYXluYW1lIjoiYmt3ZWJUZXN0IiwiYXBwaWQiOiJkYThlYzgyYy01NDU0LTQyMzUtOTQxZC05NmQ0MDc1NzE0NGUiLCJhcHBpZGFjciI6IjEiLCJlbmZwb2xpZHMiOltdLCJmYW1pbHlfbmFtZSI6ImptYXRlciIsImdpdmVuX25hbWUiOiJiYWtlciIsImlwYWRkciI6IjE2Ny4yMjAuMjU1LjAiLCJuYW1lIjoiYmFrZXIgam1hdGVyIiwib2lkIjoiYmIxMTdmNGYtZDFlMS00YmE4LTg0NTItMWZiZmVkNDQ2N2Y2IiwicHVpZCI6IjEwMDNCRkZEQTMwQjFFNjEiLCJzY3AiOiJDYWxlbmRhcnMuUmVhZC5TaGFyZWQgQ2FsZW5kYXJzLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlLkFsbCBDYWxlbmRhcnMuUmVhZFdyaXRlLlNoYXJlZCBDb250YWN0cy5SZWFkIENvbnRhY3RzLlJlYWQuU2hhcmVkIENvbnRhY3RzLlJlYWRXcml0ZSBDb250YWN0cy5SZWFkV3JpdGUuU2hhcmVkIFVzZXIuUmVhZCBVc2VyLlJlYWQuQWxsIFVzZXIuUmVhZEJhc2ljLkFsbCBVc2VyLlJlYWRXcml0ZSBVc2VyLlJlYWRXcml0ZS5BbGwiLCJzaWQiOiIwMmQ2NDg4ZS0wNDdiLTQ1YWItODhkZS0wYzM2ZmE1YjBlNmQiLCJzdWIiOiJPV0lKU3hHS1UzcnZ6N25PLWtMeVM2el9RY0pEZDVVdktUenl1aW5OZXdrIiwidGlkIjoiNmVlZjk0NzgtMDc4Mi00ZTkyLWFkY2MtMmI2NDk4MjdiMzcwIiwidW5pcXVlX25hbWUiOiJiYWtlckBqbWFzdGVyLm9ubWljcm9zb2Z0LmNvbSIsInVwbiI6ImJha2VyQGptYXN0ZXIub25taWNyb3NvZnQuY29tIiwidXRpIjoiLXRidlVRWDFoVUM0anAwSmFHMEJBQSIsInZlciI6IjEuMCJ9.nSzoMOba517jh66-B50TzpkDN6sMxLHnQpphEYz2O78ckgr-ce35suASW7FpI7H9vyHqlfDZVJMAxG_8xZWyYYjiWDHuxlqIdr8C7kxwOOnJSAKlued1lksfsoizCWdISzZ7l1Ax1o6Sql0iSJSgAGFW0WOEhZKad92QWC2Nu_UtdwWnBdi3T9XFKKJAv0iCy6wsf2T1t6xwWB9WCZCtEv3QlxdcrCHmLEb3WrWhoSGMuqQE6yzyUO6D3hBJaxo50XFWh2xgnr897yXH2FNkZZxz8E6P4F7khmUxaeKmz6DSha2Cg3tFpEZFNQz7pIQR-RaBtM-OuJmxp63GQDFx0w"
+                  }
+                ],
+                "assertions": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity": {
+        "type": "Project",
+        "id": "59a8b393-b5c3-4b2f-b615-349282c2f9ac",
+        "name": "ADToken"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Service",
+            "description": "",
+            "id": "d2623881-67dc-461a-aa84-7acfd211fb15",
+            "name": "v1.0token"
+          },
+          "children": [
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+                  "name": "GET"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": []
+                  },
+                  "bodyType": "Text"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "name": "client_id",
+                        "value": "e0cefc2c-1104-4622-81ab-f7b421063112"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "response_type",
+                        "value": "code"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "redirect_uri",
+                        "value": "https://localhost:44396"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "response_mode",
+                        "value": "query"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "resource",
+                        "value": "https://isvdevchat.sharepoint.com"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "state",
+                        "value": "12345"
+                      }
+                    ]
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "login.microsoftonline.com",
+                  "path": "/8a400d02-3263-4d07-9101-38c6872cfeef/oauth2/authorize"
+                },
+                "id": "bfe65317-0461-415e-8554-5cdff6a2fd04",
+                "name": "v1.0-code flow 01",
+                "headers": []
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "code",
+                        "value": "AQABAAIAAAAm-06blBE1TpVMil8KPQ41jg-0Pl_44W00fKps1SrtV4Ao_zi681cLK8ZhcF4BaG0652R-UiHkdQJTpdxxi7Bv9K1M3h-94YnhgnCvkQUu38ej_EAoMsOCGXo-vgkRrn4E-seAm0tsB1rxmpe4Sj8YvYnITKhzOUERdcVR5RevLcBseFr2O49ilO8tS505AfJunn_mUBQ5e7UkSAQZS0A8f65cKFfXWJnncYgUtHBKhz0JzxNrULCPs_XN7mP67k1yQI-xqMMLxBpNKeWsqV5rIZjSZGEN2ZFYohL3QSke_zSHo0P-vULLaz7zJaGp0eF5xk90b1kAfHctYmjn1HvQsQdI73RBleowDDSuEmaPoBy99mNU3IJ-SQ76iyprlHU3rQEFGVw7gxCiJWdeYaD7RhnoLE7HDOkItvYGlVJA94eghmqlv-xmlrhVKufUa47fL9yOUlW6lxfeB1DSsWRBmuRMOBljTCVaJyuyr4O34nt6-0t-SpjIWJy3YOawDGPdDkbJk_-W7NE5w1PSh0miWnkx10C8VkrLbw9xKKLa5G5zveKMOmYZVbPn-EXeqm4gAA"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "grant_type",
+                        "value": "authorization_code"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_id",
+                        "value": "e0cefc2c-1104-4622-81ab-f7b421063112"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "redirect_uri",
+                        "value": "https://localhost:44396"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "resource",
+                        "value": "https://isvdevchat.sharepoint.com"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_secret",
+                        "value": "1kQTuQ_/Fb9Z8mkyN@BdIPgv?um05-qZ"
+                      }
+                    ]
+                  },
+                  "bodyType": "Form"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "login.microsoftonline.com",
+                  "path": "/8a400d02-3263-4d07-9101-38c6872cfeef/oauth2/token"
+                },
+                "id": "dccda9da-7f37-4a6a-9984-3b0b6e1edf1b",
+                "name": "v1.0-codeflow 02",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                  }
+                ]
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "grant_type",
+                        "value": "client_credentials"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_id",
+                        "value": "e0cefc2c-1104-4622-81ab-f7b421063112"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_secret",
+                        "value": "1kQTuQ_/Fb9Z8mkyN@BdIPgv?um05-qZ"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "resource",
+                        "value": "https://isvdevchat.sharepoint.com"
+                      }
+                    ]
+                  },
+                  "bodyType": "Form"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "login.microsoftonline.com",
+                  "path": "/8a400d02-3263-4d07-9101-38c6872cfeef/oauth2/token"
+                },
+                "id": "bee27349-fd78-40c3-a855-35a36d474f4b",
+                "name": "客户端v1.0--isvdevchat租户",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "entity": {
+            "type": "Service",
+            "description": "",
+            "id": "62a3d402-ede9-437c-987a-e052f4b81605",
+            "name": "v2.0token"
+          },
+          "children": [
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+                  "name": "GET"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": []
+                  },
+                  "bodyType": "Text"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "name": "client_id",
+                        "value": "e0cefc2c-1104-4622-81ab-f7b421063112"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "response_type",
+                        "value": "code"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "redirect_uri",
+                        "value": "https://localhost:44396"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "response_mode",
+                        "value": "query"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "resource",
+                        "value": "https://isvdevchat.sharepoint.com"
+                      },
+                      {
+                        "enabled": true,
+                        "name": "state",
+                        "value": "12345"
+                      }
+                    ]
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "login.microsoftonline.com",
+                  "path": "/8a400d02-3263-4d07-9101-38c6872cfeef/oauth2/authorize"
+                },
+                "id": "37eb3750-60a6-45b5-b152-40a3ed1d119b",
+                "name": "v1.0-code flow 01",
+                "headers": []
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "code",
+                        "value": "AQABAAIAAAAm-06blBE1TpVMil8KPQ41jg-0Pl_44W00fKps1SrtV4Ao_zi681cLK8ZhcF4BaG0652R-UiHkdQJTpdxxi7Bv9K1M3h-94YnhgnCvkQUu38ej_EAoMsOCGXo-vgkRrn4E-seAm0tsB1rxmpe4Sj8YvYnITKhzOUERdcVR5RevLcBseFr2O49ilO8tS505AfJunn_mUBQ5e7UkSAQZS0A8f65cKFfXWJnncYgUtHBKhz0JzxNrULCPs_XN7mP67k1yQI-xqMMLxBpNKeWsqV5rIZjSZGEN2ZFYohL3QSke_zSHo0P-vULLaz7zJaGp0eF5xk90b1kAfHctYmjn1HvQsQdI73RBleowDDSuEmaPoBy99mNU3IJ-SQ76iyprlHU3rQEFGVw7gxCiJWdeYaD7RhnoLE7HDOkItvYGlVJA94eghmqlv-xmlrhVKufUa47fL9yOUlW6lxfeB1DSsWRBmuRMOBljTCVaJyuyr4O34nt6-0t-SpjIWJy3YOawDGPdDkbJk_-W7NE5w1PSh0miWnkx10C8VkrLbw9xKKLa5G5zveKMOmYZVbPn-EXeqm4gAA"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "grant_type",
+                        "value": "authorization_code"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_id",
+                        "value": "e0cefc2c-1104-4622-81ab-f7b421063112"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "redirect_uri",
+                        "value": "https://localhost:44396"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "resource",
+                        "value": "https://isvdevchat.sharepoint.com"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_secret",
+                        "value": "1kQTuQ_/Fb9Z8mkyN@BdIPgv?um05-qZ"
+                      }
+                    ]
+                  },
+                  "bodyType": "Form"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "login.microsoftonline.com",
+                  "path": "/8a400d02-3263-4d07-9101-38c6872cfeef/oauth2/token"
+                },
+                "id": "c36d2a33-56f0-4673-8dc3-864abc4054bd",
+                "name": "v1.0-codeflow 02",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                  }
+                ]
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "grant_type",
+                        "value": "client_credentials"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_id",
+                        "value": "e0cefc2c-1104-4622-81ab-f7b421063112"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_secret",
+                        "value": "1kQTuQ_/Fb9Z8mkyN@BdIPgv?um05-qZ"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "scope",
+                        "value": "https://isvdevchat.sharepoint.com/.default"
+                      }
+                    ]
+                  },
+                  "bodyType": "Form"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "login.microsoftonline.com",
+                  "path": "/8a400d02-3263-4d07-9101-38c6872cfeef/oauth2/v2.0/token"
+                },
+                "id": "0a22c99b-744e-4c51-878e-c0c904ecd9c1",
+                "name": "客户端v2.0--isvdevchat租户",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                  }
+                ]
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_id",
+                        "value": "e0cefc2c-1104-4622-81ab-f7b421063112"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "scope",
+                        "value": "https://isvdevchat.sharepoint.com/.default"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_assertion_type",
+                        "value": "urn:ietf:params:oauth:client-assertion-type:jwt-bearer"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_assertion",
+                        "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlCMzU2MEFDMDNGRTkyMDlCNDQwNjZDRkI1OTFENUQwMkJDNjBDMUMiLCJ4NXQiOiJtelZnckFQLWtnbTBRR2JQdFpIVjBDdkdEQnciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJlMGNlZmMyYy0xMTA0LTQ2MjItODFhYi1mN2I0MjEwNjMxMTIiLCJlbWFpbCI6ImJha2VyQCoqKioqLm9ubWljcm9zb2Z0LmNvbSIsImp0aSI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6MTU5MjM3OTUwMywiZXhwIjoxNTkyMzc5NjUzLCJpYXQiOjE1OTIzNzk2MDMsImlzcyI6ImUwY2VmYzJjLTExMDQtNDYyMi04MWFiLWY3YjQyMTA2MzExMiIsImF1ZCI6Imh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbS84YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYvb2F1dGgyL3YyLjAvdG9rZW4ifQ.NeCBrcfvmIS9am6gvbGd1oQbttFGgKGC_4YhOsVair2a2up1dtUJcN13WzRD4Q5oCC2XwEuoxKfzkE5pfuoKjU16UIFcxK0yMx2UsclcOVZ1AQhzVV1eTH2IsmgCSBMoZCh3BdwKjjdpevxNNAF5ld_-X28Rzdm8Xc9N1VK3jtOTCxdThDTTeW9e0Y0LRd_ojWJLd1bxhTq2viB6f7bmS_-IjRUzB5Yz_U9LJQZer5YaMGhxquGv4HKDzLqeLapoAcBxOX_NmpIRxYeX4pohcYOKTChXbgjvqB1MX6aEaX5DYBwI1n2TxPbrGc_iU4YUnm1nyUEsLBmb0xk9cKwDRA"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "grant_type",
+                        "value": "client_credentials"
+                      }
+                    ]
+                  },
+                  "bodyType": "Form"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "login.microsoftonline.com",
+                  "path": "/8a400d02-3263-4d07-9101-38c6872cfeef/oauth2/v2.0/token"
+                },
+                "id": "bea7bb5c-5887-4918-a45c-022a5751357a",
+                "name": "客户端证书",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity": {
+        "type": "Project",
+        "id": "eeb445cf-fd6a-45a7-a0f2-532e2dec02b1",
+        "name": "PT tool"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "method=get+document:15.0.0.4455&service_name=/sites/sbdev&document_name=_catalogs/wfpub/Collect+Signatures+-+SharePoint+2010/Signatures_1033.xoml&old_theme_html=false&force=true&get_option=none&doc_version=&timeout=0&expandWebPartPages=true"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": [
+                  {
+                    "enabled": true,
+                    "encoded": true,
+                    "name": "start",
+                    "value": "2020-11-01 +08:00"
+                  },
+                  {
+                    "enabled": true,
+                    "encoded": true,
+                    "name": "end",
+                    "value": "2020-12-30 +08:00"
+                  },
+                  {
+                    "enabled": true,
+                    "name": "subscriptions",
+                    "value": "1834"
+                  },
+                  {
+                    "enabled": true,
+                    "name": "owner",
+                    "value": "ownedbyme"
+                  },
+                  {
+                    "enabled": true,
+                    "name": "orderby",
+                    "value": "create_date"
+                  }
+                ]
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "platinumapi-v2.azurewebsites.net",
+              "path": "/api/Question/view2"
+            },
+            "id": "5ebad2f4-8c9d-4399-895e-f6e1bbcb26fc",
+            "name": "Get All Q",
+            "headers": [
+              {
+                "name": "X-Vermeer-Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "name": "Cookie",
+                "value": "SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjgsMGguZnxtZW1iZXJzaGlwfDEwMDNiZmZkYTgwZTAzYzZAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfGFkbWluQGlzdmRldmNoYXQub25taWNyb3NvZnQuY29tLDEzMjQwMjg3MTU4MDAwMDAwMCwxMzIzOTY4Nzc2OTAwMDAwMDAsMTMyNDAzNzM1NTkyOTQ3NjM0LDAuMC4wLjAsNCw4YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYsLCw5ZGI0MGJmMS05YjY1LTRjMzEtYTk1Zi05YWQ2YjkzY2JjMjAsOWRiNDBiZjEtOWI2NS00YzMxLWE5NWYtOWFkNmI5M2NiYzIwLCwwLDAsMCwsLCwyNjUwNDY3NzQzOTk5OTk5OTk5LDAsLHJzRWlLeENYMkVrOTNhWEJkeUtDQ2pJcTZYa3dMa250aEovbExsVjM1cVVMdDlWbWN3bTZISVh4dyt6NE1Fc25HdGJSZzV5aFphOStGK3hVVXhqSXdYN0c5VEZwNXAxRThENU5meVA5M1VVZ0ZBMk52NUJHcVpPa2FKR0swNFBack5NL3ZOUHpVK0ljc2JiQ1hWMSs1b2QrdTZtVllhU3RPTERtcUU3djlIeEhJSHVKcnRpcnZ2ejZBMXNJVXIza0FldU9ZeUg4cGI0K2hpNHVQdC9OajUzMktuU3pTanQ1b09nZ1NSajI1KzBzT2pQeUVUVnRYUkJBWTAxV3UvdUkwU3dHd0NObUZBYytzZzdqd05NQ2FTSXlEVVpXMW5pNWZkaGUrMFBYMG4zZnFPdlgxQVoxWVBXMEx0V0tYNW1YSmR6OUljdnhaeEhaNXp6Zlh6TXJBQT09PC9TUD4=; SPWorkLoadAttribution=Url=https://isvdevchat.sharepoint.com/sites/sbdev/_vti_bin/client.svc/ProcessQuery&AppId=E0D3C05D-9133-40D1-8413-1C4522A4E7C2"
+              },
+              {
+                "enabled": true,
+                "name": "Accept",
+                "value": "application/json"
+              },
+              {
+                "enabled": true,
+                "name": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjVPZjlQNUY5Z0NDd0NtRjJCT0hIeEREUS1EayJ9.eyJhdWQiOiI3NzA1ZWNjNC1kZTExLTQ3ZWEtODgxYy04YzJkODVjMDQ2MTYiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3L3YyLjAiLCJpYXQiOjE2MDgxMDY4MzEsIm5iZiI6MTYwODEwNjgzMSwiZXhwIjoxNjA4MTEwNzMxLCJhaW8iOiJBVlFBcS84U0FBQUFNTnV4REs2M3pPcmxsQ0htTUNYMUdFK2NTaVhKTFY5WWpBLzhtR0owMlZ1dUd2VjJtT0lyQk9ldGkreTdYK1EzMGcrZFN5TE9JTFRvUnJvT2prMERhMTVBTTgyK3JXNTE3RFhMUXBwSXZXST0iLCJuYW1lIjoiQmFrZXIgS29uZyAoU2hhbmdoYWkgV2ljcmVzb2Z0IENvLC5MdGQuKSIsIm5vbmNlIjoiMDI3MjFkMWMtZGRlOS00N2VmLWJlNzctNzE0NjdjOGZkODVhIiwib2lkIjoiOWMyODY5NDQtMTg5NS00Y2I4LTljODYtNmZiNDYyMzNmNWZkIiwicHJlZmVycmVkX3VzZXJuYW1lIjoidi1tZWtvbmdAbWljcm9zb2Z0LmNvbSIsInJoIjoiMC5BUUVBdjRqNWN2R0dyMEdScXkxODBCSGJSOFRzQlhjUjN1cEhpQnlNTFlYQVJoWWFBTzAuIiwic3ViIjoiZjVWQjlLTi1sdV9UeWk4dDhRTUx4eHcxR2d6WHZweVpmaThONjVYTm1yMCIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInV0aSI6Ik9penlIbUgyZVVLZ1JFWUM5NmNDQUEiLCJ2ZXIiOiIyLjAifQ.CFN0p3UKkmkERWmJbM0r3E3sTjo3wtKAA4rXQ472GffSgsHcEPBa0d3fx24mjJ_MTvosdazovECmW-UrkQEcQEc-3zX60OnNvFmVcPjD3G65bfnhnSVcjA2Ntgzli9KiGzMqD7RQVKTQ3yb8mMPuLO_cEibsU8rUT4FvXJAhB_gQzxZl_Hxy2FR41aqYy3RCT4dNETCJReSCKODdA2CJz6weEi0OSOQPPVdSuH-xq8YZyFK-k_S9eqCE3bOPOXCPawIKqNtVC49zXoyoPI8lWueoZF1rp3O0_HRV9AdCQMGrFKDzLFjtckfsS_u3VehXXwNeMYfdYjesS9SmDRvVRQ"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": [
+                  {
+                    "name": "$expand",
+                    "value": "support_topic"
+                  }
+                ]
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "platinumapi-v2.azurewebsites.net",
+              "path": "/api/Question/view/2777716"
+            },
+            "id": "35981700-2aa8-415b-aed8-c03a6990b3d5",
+            "name": "Get Q 1",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Accept",
+                "value": "application/json"
+              },
+              {
+                "enabled": true,
+                "name": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjVPZjlQNUY5Z0NDd0NtRjJCT0hIeEREUS1EayJ9.eyJhdWQiOiI3NzA1ZWNjNC1kZTExLTQ3ZWEtODgxYy04YzJkODVjMDQ2MTYiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3L3YyLjAiLCJpYXQiOjE2MDgxMDY4MzEsIm5iZiI6MTYwODEwNjgzMSwiZXhwIjoxNjA4MTEwNzMxLCJhaW8iOiJBVlFBcS84U0FBQUFNTnV4REs2M3pPcmxsQ0htTUNYMUdFK2NTaVhKTFY5WWpBLzhtR0owMlZ1dUd2VjJtT0lyQk9ldGkreTdYK1EzMGcrZFN5TE9JTFRvUnJvT2prMERhMTVBTTgyK3JXNTE3RFhMUXBwSXZXST0iLCJuYW1lIjoiQmFrZXIgS29uZyAoU2hhbmdoYWkgV2ljcmVzb2Z0IENvLC5MdGQuKSIsIm5vbmNlIjoiMDI3MjFkMWMtZGRlOS00N2VmLWJlNzctNzE0NjdjOGZkODVhIiwib2lkIjoiOWMyODY5NDQtMTg5NS00Y2I4LTljODYtNmZiNDYyMzNmNWZkIiwicHJlZmVycmVkX3VzZXJuYW1lIjoidi1tZWtvbmdAbWljcm9zb2Z0LmNvbSIsInJoIjoiMC5BUUVBdjRqNWN2R0dyMEdScXkxODBCSGJSOFRzQlhjUjN1cEhpQnlNTFlYQVJoWWFBTzAuIiwic3ViIjoiZjVWQjlLTi1sdV9UeWk4dDhRTUx4eHcxR2d6WHZweVpmaThONjVYTm1yMCIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInV0aSI6Ik9penlIbUgyZVVLZ1JFWUM5NmNDQUEiLCJ2ZXIiOiIyLjAifQ.CFN0p3UKkmkERWmJbM0r3E3sTjo3wtKAA4rXQ472GffSgsHcEPBa0d3fx24mjJ_MTvosdazovECmW-UrkQEcQEc-3zX60OnNvFmVcPjD3G65bfnhnSVcjA2Ntgzli9KiGzMqD7RQVKTQ3yb8mMPuLO_cEibsU8rUT4FvXJAhB_gQzxZl_Hxy2FR41aqYy3RCT4dNETCJReSCKODdA2CJz6weEi0OSOQPPVdSuH-xq8YZyFK-k_S9eqCE3bOPOXCPawIKqNtVC49zXoyoPI8lWueoZF1rp3O0_HRV9AdCQMGrFKDzLFjtckfsS_u3VehXXwNeMYfdYjesS9SmDRvVRQ"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n   \"qid\":2777716,\n   \"support_topic_id\":23700,\n   \"created_by\":\"Baker Kong (Shanghai Wicresoft Co,.Ltd.)\"\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "platinumapi-v2.azurewebsites.net",
+              "path": "/api/Question/SupportTopic"
+            },
+            "id": "dd88c877-b044-4fe8-af24-bff59f16724c",
+            "name": "Submit Topic",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Accept",
+                "value": "application/json"
+              },
+              {
+                "enabled": true,
+                "name": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjVPZjlQNUY5Z0NDd0NtRjJCT0hIeEREUS1EayJ9.eyJhdWQiOiI3NzA1ZWNjNC1kZTExLTQ3ZWEtODgxYy04YzJkODVjMDQ2MTYiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3L3YyLjAiLCJpYXQiOjE2MDgxMDMwODMsIm5iZiI6MTYwODEwMzA4MywiZXhwIjoxNjA4MTA2OTgzLCJhaW8iOiJBVlFBcS84U0FBQUFSNmRwOGJ5MHpQVGJhWGlHOUc3REhxdXdJeC85WGpvRVIrMnpPejhLOTJCUWlVOUw0ZiswMTByR0lha2lJem44VjFvSS90dmVLYjBjWVZXNDNuQ0hIZlN1djZRYnlzNjZScVc4WFVnM1JnMD0iLCJuYW1lIjoiQmFrZXIgS29uZyAoU2hhbmdoYWkgV2ljcmVzb2Z0IENvLC5MdGQuKSIsIm5vbmNlIjoiMzI2MzZjMGQtMWE1ZS00ZWYyLWEwYzQtMjFhNzUxNTBmYmY5Iiwib2lkIjoiOWMyODY5NDQtMTg5NS00Y2I4LTljODYtNmZiNDYyMzNmNWZkIiwicHJlZmVycmVkX3VzZXJuYW1lIjoidi1tZWtvbmdAbWljcm9zb2Z0LmNvbSIsInJoIjoiMC5BUUVBdjRqNWN2R0dyMEdScXkxODBCSGJSOFRzQlhjUjN1cEhpQnlNTFlYQVJoWWFBTzAuIiwic3ViIjoiZjVWQjlLTi1sdV9UeWk4dDhRTUx4eHcxR2d6WHZweVpmaThONjVYTm1yMCIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInV0aSI6ImQ5LW9sZFo3TDBpN09iT1RJdWNDQUEiLCJ2ZXIiOiIyLjAifQ.LcinubjA-_zDjhmGdqjOIaIozTA7eXYi0uAsecTC81uJGjt2IVXt3ol6soLtmWuE3L2zEmB2aSXQxw30rbnkny67QoYkA1mQvMW9gYA2KFK25G0Nt17FDy92eY8qPqM3gHHNbqP_Gja-hOrt-IY4c5Pr-ydHvQlSICFDgBSb7pjIJnmxWyrh04HItm45BOL_GR3nEeZzRJxs8urga_1ejfRGDQlifi6b0yUcZ5gXS5KkB9h65cn86-kPYJCYuXp31kMBJnmBYsmwDLlwUc6BRe0ytT1Cp-StSuKRhZjPY7CcxsddtSVqRsAkuQ3GAmFz9dbPLiNerx3VXqlebDljnA"
+              },
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": [
+                  {
+                    "enabled": true,
+                    "encoded": true,
+                    "name": "platform",
+                    "value": "microsoft%20q%26a"
+                  },
+                  {
+                    "enabled": true,
+                    "name": "question_id",
+                    "value": "194481"
+                  }
+                ]
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "platinumapi-v2.azurewebsites.net",
+              "path": "/api/Question/SupportTopic"
+            },
+            "id": "f6097768-5d95-42fd-b536-e7781f951adc",
+            "name": "Topic",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Accept",
+                "value": "application/json"
+              },
+              {
+                "enabled": true,
+                "name": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjVPZjlQNUY5Z0NDd0NtRjJCT0hIeEREUS1EayJ9.eyJhdWQiOiI3NzA1ZWNjNC1kZTExLTQ3ZWEtODgxYy04YzJkODVjMDQ2MTYiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3L3YyLjAiLCJpYXQiOjE2MDgxMDMwODMsIm5iZiI6MTYwODEwMzA4MywiZXhwIjoxNjA4MTA2OTgzLCJhaW8iOiJBVlFBcS84U0FBQUFSNmRwOGJ5MHpQVGJhWGlHOUc3REhxdXdJeC85WGpvRVIrMnpPejhLOTJCUWlVOUw0ZiswMTByR0lha2lJem44VjFvSS90dmVLYjBjWVZXNDNuQ0hIZlN1djZRYnlzNjZScVc4WFVnM1JnMD0iLCJuYW1lIjoiQmFrZXIgS29uZyAoU2hhbmdoYWkgV2ljcmVzb2Z0IENvLC5MdGQuKSIsIm5vbmNlIjoiMzI2MzZjMGQtMWE1ZS00ZWYyLWEwYzQtMjFhNzUxNTBmYmY5Iiwib2lkIjoiOWMyODY5NDQtMTg5NS00Y2I4LTljODYtNmZiNDYyMzNmNWZkIiwicHJlZmVycmVkX3VzZXJuYW1lIjoidi1tZWtvbmdAbWljcm9zb2Z0LmNvbSIsInJoIjoiMC5BUUVBdjRqNWN2R0dyMEdScXkxODBCSGJSOFRzQlhjUjN1cEhpQnlNTFlYQVJoWWFBTzAuIiwic3ViIjoiZjVWQjlLTi1sdV9UeWk4dDhRTUx4eHcxR2d6WHZweVpmaThONjVYTm1yMCIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInV0aSI6ImQ5LW9sZFo3TDBpN09iT1RJdWNDQUEiLCJ2ZXIiOiIyLjAifQ.LcinubjA-_zDjhmGdqjOIaIozTA7eXYi0uAsecTC81uJGjt2IVXt3ol6soLtmWuE3L2zEmB2aSXQxw30rbnkny67QoYkA1mQvMW9gYA2KFK25G0Nt17FDy92eY8qPqM3gHHNbqP_Gja-hOrt-IY4c5Pr-ydHvQlSICFDgBSb7pjIJnmxWyrh04HItm45BOL_GR3nEeZzRJxs8urga_1ejfRGDQlifi6b0yUcZ5gXS5KkB9h65cn86-kPYJCYuXp31kMBJnmBYsmwDLlwUc6BRe0ytT1Cp-StSuKRhZjPY7CcxsddtSVqRsAkuQ3GAmFz9dbPLiNerx3VXqlebDljnA"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entity": {
+        "type": "Project",
+        "id": "c5a149ca-e9b7-40d3-adfc-736582045b43",
+        "name": "azure related"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n    \"name\": \"Azurehhhhhhhhhhhhhhh\"\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "sharepointtestggg.azurewebsites.net",
+              "path": "/api/HttpTrigger1"
+            },
+            "id": "13d9f11c-f927-4369-ab93-b1c2776f6244",
+            "name": "httptrigger",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entity": {
+        "type": "Project",
+        "id": "70fe58f8-26e5-4ee6-9618-7bf28b25b8da",
+        "name": "sharepoint"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Scenario",
+            "description": "this is for sharepoint",
+            "id": "249c6aff-ba4d-4535-8641-5c05f79c5dee",
+            "name": "Scenario 1"
+          },
+          "children": [
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+                  "name": "GET"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": []
+                  },
+                  "bodyType": "Text"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "isvdevchat.sharepoint.com",
+                  "path": "/sites/sbdev/_api/$metadata"
+                },
+                "id": "553ca2c5-056d-4996-9044-0001aa9a7648",
+                "name": "metadata",
+                "headers": []
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "grant_type",
+                        "value": "client_credentials"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_id",
+                        "value": "56ce206f-146a-40d2-be9a-db4557be4284@8a400d02-3263-4d07-9101-38c6872cfeef"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_secret",
+                        "value": "FUCFJaHp3IBwVajPKZc+NkjwQwOvQgAtabQGBpkvRM8="
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "resource",
+                        "value": "00000003-0000-0ff1-ce00-000000000000/isvdevchat.sharepoint.com@8a400d02-3263-4d07-9101-38c6872cfeef"
+                      }
+                    ]
+                  },
+                  "bodyType": "Form",
+                  "textBody": ""
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "accounts.accesscontrol.windows.net",
+                  "path": "/tokens/OAuth/2"
+                },
+                "id": "2f9392f1-b838-4c1b-9ef3-c660783d2a3b",
+                "name": "Acs apponly 请求",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                  }
+                ]
+              }
+            },
+            {
+              "entity": {
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": [
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "grant_type",
+                        "value": "authorization_code"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_id",
+                        "value": "56ce206f-146a-40d2-be9a-db4557be4284@8a400d02-3263-4d07-9101-38c6872cfeef"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "client_secret",
+                        "value": "FUCFJaHp3IBwVajPKZc+NkjwQwOvQgAtabQGBpkvRM8="
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "code",
+                        "value": "PAQABAAIAAACQN9QBRU3jT6bcBQLZNUj7YvagNfQ6lxJ1HFWcbKLS5GNUdyYPkC5jDoHoaPKc2d56IqllS2rX1mud7yrLHEfuBNYT_CA1j5kVEpcqGTF2N21ZIyl6Bt9NzeZkvdDMFewVX90xAXaltFWQQge23iX5o1CZILS6e-jVV5_ApRoG2YeyOKzmb-T2Omm_D7D8BM_IuWwEcbQMSV7ARqVKEDPVDE5v4K-7h4LMMpzW31hFPsHZ_hc6YbGUakMpP9XZ84POUDRP_q6EmskXbzJB3ofCtO34GlN8oGW0f6PLaFjLfB33S_3silWqDJMge5SM19cCp3LMmzDX-d--sMqn3Q-MIAA"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "redirect_uri",
+                        "value": "https://localhost:44396"
+                      },
+                      {
+                        "enabled": true,
+                        "type": "Text",
+                        "name": "resource",
+                        "value": "00000003-0000-0ff1-ce00-000000000000/isvdevchat.sharepoint.com@8a400d02-3263-4d07-9101-38c6872cfeef"
+                      }
+                    ]
+                  },
+                  "bodyType": "Form",
+                  "textBody": ""
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "secure": true,
+                    "name": "https",
+                    "version": "V11"
+                  },
+                  "host": "accounts.accesscontrol.windows.net",
+                  "path": "/tokens/OAuth/2"
+                },
+                "id": "991a4097-3db6-4de6-adb5-fabb5a9245fe",
+                "name": "Acs code flow请求",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "isvdevchat.sharepoint.com",
+              "path": "/sites/sbde/v_vti_bin/listdata.svc/"
+            },
+            "id": "78c1cdea-6654-4824-aa7a-62c9de172a4c",
+            "name": "list",
+            "headers": []
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n    '__metadata': {\n        'type': 'SP.List'\n    },\n    'Title': 'subscribekkkk'\n}"
+            },
+            "uri": {
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "isvdevchat.sharepoint.com",
+              "path": "/sites/sbdev/_api/Web/Lists(guid'9e5ddd2e-45ec-4700-ae03-ecead00def89')"
+            },
+            "id": "653acf7e-e380-4a71-9c70-4b6b5e0e2a49",
+            "name": "renamelist",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Accept",
+                "value": "application/json"
+              },
+              {
+                "name": "X-HTTP-Method",
+                "value": ": MERGE"
+              },
+              {
+                "enabled": true,
+                "name": "Authorization",
+                "value": "Bearer ${getEntityById(\"2f9392f1-b838-4c1b-9ef3-c660783d2a3b\").\"response\".\"body\".\"access_token\"}"
+              },
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": [
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "grant_type",
+                    "value": "client_credentials"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "client_id",
+                    "value": "0e60cef7-bf9b-4148-9d33-64e3babe8987@8a400d02-3263-4d07-9101-38c6872cfeef"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "client_secret",
+                    "value": "b9vhev7CCTC2PMrJrSkepG8unAYwki9qrAmlgYMws2s="
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "resource",
+                    "value": "00000003-0000-0ff1-ce00-000000000000/isvdevchat-my.sharepoint.com@8a400d02-3263-4d07-9101-38c6872cfeef"
+                  }
+                ]
+              },
+              "bodyType": "Form",
+              "textBody": ""
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "accounts.accesscontrol.windows.net",
+              "path": "/tokens/OAuth/2"
+            },
+            "id": "9b7b8f65-9a69-4e8c-9eaf-0d09eadba48a",
+            "name": "tenant-my token",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entity": {
+        "type": "Project",
+        "id": "2a5de73e-081b-49ff-b049-6e4726991c38",
+        "name": "sp"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "hhhhhhhhhhh"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "isvdevchat.sharepoint.com",
+              "path": "/sites/TestCustomSite01/_api/web/GetFolderByServerRelativeUrl('test doc/folderA')/files/add(overwrite=true, url='test.txt')"
+            },
+            "id": "d8975a4d-aaeb-4dbc-8821-a5f3c3934089",
+            "name": "GetFolderByServerRelativeUrl",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "text/plain"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "method=get+document:15.0.0.4455&service_name=/sites/sbdev&document_name=_catalogs/wfpub/Collect+Signatures+-+SharePoint+2010/Signatures_1033.xoml&old_theme_html=false&force=true&get_option=none&doc_version=&timeout=0&expandWebPartPages=true"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "isvdevchat.sharepoint.com",
+              "path": "/sites/sbdev/_vti_bin/_vti_aut/author.dll"
+            },
+            "id": "381209e1-476b-445c-9ec9-3f6d02427493",
+            "name": "agetxoml",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "enabled": true,
+                "name": "Accept-Language",
+                "value": "en-us, en;q=0.1"
+              },
+              {
+                "enabled": true,
+                "name": "X-Vermeer-Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "name": "Cookie",
+                "value": "SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjgsMGguZnxtZW1iZXJzaGlwfDEwMDNiZmZkYTgwZTAzYzZAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfGFkbWluQGlzdmRldmNoYXQub25taWNyb3NvZnQuY29tLDEzMjQwMjg3MTU4MDAwMDAwMCwxMzIzOTY4Nzc2OTAwMDAwMDAsMTMyNDAzNzM1NTkyOTQ3NjM0LDAuMC4wLjAsNCw4YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYsLCw5ZGI0MGJmMS05YjY1LTRjMzEtYTk1Zi05YWQ2YjkzY2JjMjAsOWRiNDBiZjEtOWI2NS00YzMxLWE5NWYtOWFkNmI5M2NiYzIwLCwwLDAsMCwsLCwyNjUwNDY3NzQzOTk5OTk5OTk5LDAsLHJzRWlLeENYMkVrOTNhWEJkeUtDQ2pJcTZYa3dMa250aEovbExsVjM1cVVMdDlWbWN3bTZISVh4dyt6NE1Fc25HdGJSZzV5aFphOStGK3hVVXhqSXdYN0c5VEZwNXAxRThENU5meVA5M1VVZ0ZBMk52NUJHcVpPa2FKR0swNFBack5NL3ZOUHpVK0ljc2JiQ1hWMSs1b2QrdTZtVllhU3RPTERtcUU3djlIeEhJSHVKcnRpcnZ2ejZBMXNJVXIza0FldU9ZeUg4cGI0K2hpNHVQdC9OajUzMktuU3pTanQ1b09nZ1NSajI1KzBzT2pQeUVUVnRYUkJBWTAxV3UvdUkwU3dHd0NObUZBYytzZzdqd05NQ2FTSXlEVVpXMW5pNWZkaGUrMFBYMG4zZnFPdlgxQVoxWVBXMEx0V0tYNW1YSmR6OUljdnhaeEhaNXp6Zlh6TXJBQT09PC9TUD4=; SPWorkLoadAttribution=Url=https://isvdevchat.sharepoint.com/sites/sbdev/_vti_bin/client.svc/ProcessQuery&AppId=E0D3C05D-9133-40D1-8413-1C4522A4E7C2"
+              },
+              {
+                "name": "Accept",
+                "value": "application/json"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IlNzWnNCTmhaY0YzUTlTNHRycFFCVEJ5TlJSSSIsImtpZCI6IlNzWnNCTmhaY0YzUTlTNHRycFFCVEJ5TlJSSSJ9.eyJhdWQiOiJodHRwczovL2lzdmRldmNoYXQuc2hhcmVwb2ludC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC84YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYvIiwiaWF0IjoxNTkyMzc5MzE5LCJuYmYiOjE1OTIzNzkzMTksImV4cCI6MTU5MjM4MzIxOSwiYWlvIjoiNDJkZ1lMaSsvWnVnY1AwYzlRVGJjaDl2OWlCSEFBPT0iLCJhcHBfZGlzcGxheW5hbWUiOiJUZWFtaWZ5U2hhcmVQb2ludENsYXNzaWNTaXRlIiwiYXBwaWQiOiJlMGNlZmMyYy0xMTA0LTQ2MjItODFhYi1mN2I0MjEwNjMxMTIiLCJhcHBpZGFjciI6IjIiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC84YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYvIiwiaWR0eXAiOiJhcHAiLCJvaWQiOiJlZDdkZTFkOC00YTI2LTQxNjYtYWJlNC00ODVmZTkwYmY1ZGQiLCJyb2xlcyI6WyJTaXRlcy5NYW5hZ2UuQWxsIiwiU2l0ZXMuUmVhZC5BbGwiLCJTaXRlcy5SZWFkV3JpdGUuQWxsIiwiU2l0ZXMuRnVsbENvbnRyb2wuQWxsIl0sInNpZCI6ImZmMzc0ZWVkLTQyMzEtNDE1ZC05OGZjLWUwODVlZjkzNWQxZCIsInN1YiI6ImVkN2RlMWQ4LTRhMjYtNDE2Ni1hYmU0LTQ4NWZlOTBiZjVkZCIsInRpZCI6IjhhNDAwZDAyLTMyNjMtNGQwNy05MTAxLTM4YzY4NzJjZmVlZiIsInV0aSI6InNzUE1UQjBVZVVLdmM0ZTRYWG8zQUEiLCJ2ZXIiOiIxLjAifQ.RCZDNVp1Q8bzhR3qORM6XesynILnI9Wpxc8n60ymRglWTF4s22LFdUcNBbe5lx5awl8qcrU0VUzhqw2HDTv5i3ti-QgF1NiFIhpM39LYnM9MXTIeMfyF4TPeTB2xj6VFFAdUrRUsPEQFBG2jf6jaWPRv3ETyhIHazfX4po59alE851yOrzJLSYm8scTWgAvl5By2mGy3nWloS5kueUFZmSDcg282IbizutgNaFRFDLGZCYF1L9wveaEV4IypzO4H-yV4EEXyhY3rBDndNfzSt4lM19lyBUcDHHCkj1Ip3bKb9vrwBP480gCVrr_SXuk_0MwIA_YILO9TvVd_CyYPXg"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n   \"resource\":\"https://isvdevchat.sharepoint.com/sites/sbdev/_api/Web/Lists(guid'816aa727-0444-4f15-af20-46c0ec1f60c1')\",\n   \"notificationUrl\":\"https://bksbdev.azurewebsites.net/api/HttpTrigger1\",\n   \"expirationDateTime\":\"2020-05-27T16:17:57+00:00\",\n   \"clientState\":\"A0A354EC-97D4-4D43-9DDB-144077ADB449\"\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "isvdevchat.sharepoint.com",
+              "path": "/sites/sbdev/_api/web/lists/getbytitle('Documents')/subscriptions"
+            },
+            "id": "02c1eb2a-3b6c-43fb-8cb5-fc3875661c03",
+            "name": "sharepoint webhook",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Accept",
+                "value": "application/json"
+              },
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "enabled": true,
+                "name": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSIsImtpZCI6IkN0VHVoTUptRDVNN0RMZHpEMnYyeDNRS1NSWSJ9.eyJhdWQiOiJodHRwczovL2lzdmRldmNoYXQuc2hhcmVwb2ludC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC84YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYvIiwiaWF0IjoxNTg4ODQ0NDM1LCJuYmYiOjE1ODg4NDQ0MzUsImV4cCI6MTU4ODg0ODMzNSwiYWNyIjoiMSIsImFpbyI6IjQyZGdZRkJaK2xRaEl0OWxnaCtyMll1ejRUK2MxMWtkTE52TDg4WTVQVFhaaUMrcVhRa0EiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IlRlYW1pZnlTaGFyZVBvaW50Q2xhc3NpY1NpdGUiLCJhcHBpZCI6ImUwY2VmYzJjLTExMDQtNDYyMi04MWFiLWY3YjQyMTA2MzExMiIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiY2hhdCIsImdpdmVuX25hbWUiOiJkZXYiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIxNjcuMjIwLjI1NS4xMDIiLCJuYW1lIjoiSVNWRGV2Q2hhdCIsIm9pZCI6IjczZDcyMTczLTczMmItNGIxOS1hOWM4LWI5YjBjNWUwYTU2NyIsInB1aWQiOiIxMDAzQkZGREE4MEUwM0M2Iiwic2NwIjoiQWxsU2l0ZXMuRnVsbENvbnRyb2wgQWxsU2l0ZXMuTWFuYWdlIEFsbFNpdGVzLlJlYWQgQWxsU2l0ZXMuV3JpdGUgU2l0ZXMuU2VhcmNoLkFsbCBVc2VyLlJlYWQiLCJzaWQiOiIxYmViMDgwYi1lNTEyLTRjMTUtOTgxMC1iNTY5OGZhYzI5ZGMiLCJzdWIiOiJnckZDMU9kdThtSTFMZGlHSDAzaXJjcjUwLXdVM250VDRJdkxoc1lFS204IiwidGlkIjoiOGE0MDBkMDItMzI2My00ZDA3LTkxMDEtMzhjNjg3MmNmZWVmIiwidW5pcXVlX25hbWUiOiJhZG1pbkBJU1ZEZXZDaGF0Lm9ubWljcm9zb2Z0LmNvbSIsInVwbiI6ImFkbWluQElTVkRldkNoYXQub25taWNyb3NvZnQuY29tIiwidXRpIjoiYy1LczJLWlFPazI4Y2xfQmQza0ZBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiNjJlOTAzOTQtNjlmNS00MjM3LTkxOTAtMDEyMTc3MTQ1ZTEwIl19.c7eVqmzXTMjX1gqJvUN6fbg-WLkfp8zK9uMLMgVGq4MfIrxrU6Rixv3Al8aPDnrG_7Zg5BlFT6RrFFTU1Xc6WqCPxFouXRJwjiBWRhkvm-yOQz_vlsTyiLjsRwr3H4wjuRkaQhqGZqQd9LvnKu3c9lrGn73jed8Ok_wVdf4VvR64n73TnwMePFg-lWvvIG2f9P8yCAtKfvXvZK3-zv368tFT_Wo-Wdo6CoKAic8_mzdgbmVjhMP_ncYojlJmZrKhMmd1Dm4BBRKZHhQVo3VLXi_bqTUuRJHZCm1dA7xPyxdMD6O4OwY9UYmrwOQ-TBjagvuiLPTjhOk_dKm0v_EruA"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "isvdevchat.sharepoint.com",
+              "path": "/sites/sbdev/_api/web/lists/getbytitle('Documents')/subscriptions"
+            },
+            "id": "4b2eb0ed-1792-472f-a49f-5d663fcea96e",
+            "name": "subscriptions",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Accept",
+                "value": "application/json"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "method=get+document:15.0.0.4455&service_name=/sites/sbdev&document_name=_catalogs/wfpub/Collect+Signatures+-+SharePoint+2010/Signatures_1033.xoml&old_theme_html=false&force=true&get_option=none&doc_version=&timeout=0&expandWebPartPages=true"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "isvdevchat-my.sharepoint.com",
+              "path": "/_api/web"
+            },
+            "id": "5c08fba6-4754-47e9-b807-c1e4ebb84a16",
+            "name": "test",
+            "headers": [
+              {
+                "name": "X-Vermeer-Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "name": "Cookie",
+                "value": "SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjgsMGguZnxtZW1iZXJzaGlwfDEwMDNiZmZkYTgwZTAzYzZAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfGFkbWluQGlzdmRldmNoYXQub25taWNyb3NvZnQuY29tLDEzMjQwMjg3MTU4MDAwMDAwMCwxMzIzOTY4Nzc2OTAwMDAwMDAsMTMyNDAzNzM1NTkyOTQ3NjM0LDAuMC4wLjAsNCw4YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYsLCw5ZGI0MGJmMS05YjY1LTRjMzEtYTk1Zi05YWQ2YjkzY2JjMjAsOWRiNDBiZjEtOWI2NS00YzMxLWE5NWYtOWFkNmI5M2NiYzIwLCwwLDAsMCwsLCwyNjUwNDY3NzQzOTk5OTk5OTk5LDAsLHJzRWlLeENYMkVrOTNhWEJkeUtDQ2pJcTZYa3dMa250aEovbExsVjM1cVVMdDlWbWN3bTZISVh4dyt6NE1Fc25HdGJSZzV5aFphOStGK3hVVXhqSXdYN0c5VEZwNXAxRThENU5meVA5M1VVZ0ZBMk52NUJHcVpPa2FKR0swNFBack5NL3ZOUHpVK0ljc2JiQ1hWMSs1b2QrdTZtVllhU3RPTERtcUU3djlIeEhJSHVKcnRpcnZ2ejZBMXNJVXIza0FldU9ZeUg4cGI0K2hpNHVQdC9OajUzMktuU3pTanQ1b09nZ1NSajI1KzBzT2pQeUVUVnRYUkJBWTAxV3UvdUkwU3dHd0NObUZBYytzZzdqd05NQ2FTSXlEVVpXMW5pNWZkaGUrMFBYMG4zZnFPdlgxQVoxWVBXMEx0V0tYNW1YSmR6OUljdnhaeEhaNXp6Zlh6TXJBQT09PC9TUD4=; SPWorkLoadAttribution=Url=https://isvdevchat.sharepoint.com/sites/sbdev/_vti_bin/client.svc/ProcessQuery&AppId=E0D3C05D-9133-40D1-8413-1C4522A4E7C2"
+              },
+              {
+                "enabled": true,
+                "name": "Accept",
+                "value": "application/json"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IlNzWnNCTmhaY0YzUTlTNHRycFFCVEJ5TlJSSSIsImtpZCI6IlNzWnNCTmhaY0YzUTlTNHRycFFCVEJ5TlJSSSJ9.eyJhdWQiOiJodHRwczovL2lzdmRldmNoYXQuc2hhcmVwb2ludC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC84YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYvIiwiaWF0IjoxNTkyMzc5MzE5LCJuYmYiOjE1OTIzNzkzMTksImV4cCI6MTU5MjM4MzIxOSwiYWlvIjoiNDJkZ1lMaSsvWnVnY1AwYzlRVGJjaDl2OWlCSEFBPT0iLCJhcHBfZGlzcGxheW5hbWUiOiJUZWFtaWZ5U2hhcmVQb2ludENsYXNzaWNTaXRlIiwiYXBwaWQiOiJlMGNlZmMyYy0xMTA0LTQ2MjItODFhYi1mN2I0MjEwNjMxMTIiLCJhcHBpZGFjciI6IjIiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC84YTQwMGQwMi0zMjYzLTRkMDctOTEwMS0zOGM2ODcyY2ZlZWYvIiwiaWR0eXAiOiJhcHAiLCJvaWQiOiJlZDdkZTFkOC00YTI2LTQxNjYtYWJlNC00ODVmZTkwYmY1ZGQiLCJyb2xlcyI6WyJTaXRlcy5NYW5hZ2UuQWxsIiwiU2l0ZXMuUmVhZC5BbGwiLCJTaXRlcy5SZWFkV3JpdGUuQWxsIiwiU2l0ZXMuRnVsbENvbnRyb2wuQWxsIl0sInNpZCI6ImZmMzc0ZWVkLTQyMzEtNDE1ZC05OGZjLWUwODVlZjkzNWQxZCIsInN1YiI6ImVkN2RlMWQ4LTRhMjYtNDE2Ni1hYmU0LTQ4NWZlOTBiZjVkZCIsInRpZCI6IjhhNDAwZDAyLTMyNjMtNGQwNy05MTAxLTM4YzY4NzJjZmVlZiIsInV0aSI6InNzUE1UQjBVZVVLdmM0ZTRYWG8zQUEiLCJ2ZXIiOiIxLjAifQ.RCZDNVp1Q8bzhR3qORM6XesynILnI9Wpxc8n60ymRglWTF4s22LFdUcNBbe5lx5awl8qcrU0VUzhqw2HDTv5i3ti-QgF1NiFIhpM39LYnM9MXTIeMfyF4TPeTB2xj6VFFAdUrRUsPEQFBG2jf6jaWPRv3ETyhIHazfX4po59alE851yOrzJLSYm8scTWgAvl5By2mGy3nWloS5kueUFZmSDcg282IbizutgNaFRFDLGZCYF1L9wveaEV4IypzO4H-yV4EEXyhY3rBDndNfzSt4lM19lyBUcDHHCkj1Ip3bKb9vrwBP480gCVrr_SXuk_0MwIA_YILO9TvVd_CyYPXg"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": [
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "grant_type",
+                    "value": "client_credentials"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "client_id",
+                    "value": "56ce206f-146a-40d2-be9a-db4557be4284@8a400d02-3263-4d07-9101-38c6872cfeef"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "client_secret",
+                    "value": "FUCFJaHp3IBwVajPKZc+NkjwQwOvQgAtabQGBpkvRM8="
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "resource",
+                    "value": "00000003-0000-0ff1-ce00-000000000000/isvdevchat.sharepoint.com@8a400d02-3263-4d07-9101-38c6872cfeef"
+                  }
+                ]
+              },
+              "bodyType": "Form",
+              "textBody": ""
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "accounts.accesscontrol.windows.net",
+              "path": "/tokens/OAuth/2"
+            },
+            "id": "dcbf4e3e-7c83-4c92-839b-b4b5c7e9d656",
+            "name": "test0",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "id": "46a927d4-6c13-480a-876b-a26758137600",
+      "name": "sharepoint envir",
+      "variables": {
+        "d32bbf41-968e-4110-9250-d794614f9f24": {
+          "createdAt": "2019-10-25T12:50:10.028+08:00",
+          "name": "",
+          "value": "",
+          "enabled": true,
+          "private": false
+        }
+      }
+    }
+  ]
+}
