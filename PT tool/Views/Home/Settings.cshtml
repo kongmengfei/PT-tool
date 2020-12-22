@@ -5,11 +5,11 @@
 <h3>@ViewBag.Message</h3>
 
 <div class="jumbotron">
-    @using (Html.BeginForm("Settings", "Home", FormMethod.Post))
+    @using (Html.BeginForm("SetSettings", "Home", FormMethod.Post))
     {
         <div class="form-group">
             <label for="BearerToken">Bearer Token: </label>
-            <textarea class="form-control" id="BearerToken" rows="3"></textarea>
+            <textarea class="form-control" id="BearerToken" rows="3" placeholder= "@ViewBag.token"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     }
