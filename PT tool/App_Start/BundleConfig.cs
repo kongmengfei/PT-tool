@@ -25,6 +25,16 @@ namespace PT_tool
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            //mine
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap-datetimepicker").Include(
+                        "~/Scripts/moment.min.js",
+                        "~/Scripts/bootstrap-datetimepicker.min.js"));
+
+            bundles.Add(new StyleBundle("~/Content/css-m").Include(
+                      "~/Content/bootstrap-datetimepicker.min.css"));
+
+
         }
     }
 }
