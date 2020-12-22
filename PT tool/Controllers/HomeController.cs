@@ -34,7 +34,7 @@ namespace PT_tool.Controllers
             ViewBag.Message = "This is Settings page.";
             HttpContext.Session["token"] = "Bearer " + token;
 
-            return RedirectToAction("GetRangQuestion", "Question");
+            return RedirectToAction("Index", "Question");
         }
 
         public ActionResult Contact()

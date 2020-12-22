@@ -9,7 +9,7 @@ namespace PT_tool.Controllers
     public class QuestionController : Controller
     {
         // GET: Question
-        public ActionResult GetRangQuestion()
+        public ActionResult Index()
         {
             return View();
         }
