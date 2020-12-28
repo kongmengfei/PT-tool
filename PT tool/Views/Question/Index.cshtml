@@ -7,28 +7,56 @@
 
 @Styles.Render("~/Content/css-m")
 
+
+
+
+<section id="search" class="row">
+    <div class="col-8">
+        <form class="form-inline">
+            <input id="datepicker1" placeholder="Name..." class="form-control" />
+            <span class="mx-3">~</span>
+            <input id="datepicker2" placeholder="Place O" class="form-control" />
+        </form>
+    </div>
+    <div class="col-4">
+        <button id="btnSearch" type="button" class="btn btn-primary float-right">Search</button>
+    </div>
+
+</section>
+
+<div id="QuestionTable">
+
+
+
+</div>
+
+
 @section scripts{
     <script type="text/javascript">
         $(function () {
-            $('#datetimepicker4').datetimepicker({
-                format: 'L'
+            $('#datepicker1').datepicker({
+                uiLibrary: 'bootstrap4'
             });
+            $('#datepicker2').datepicker({
+                uiLibrary: 'bootstrap4'
+            });
+
+            //
+            $.ajax({
+                url: '/ Home/GetUserDetails',
+                contentType: 'application/html; charset=utf-8',
+                type: 'GET',
+                dataType: 'html'
+            })
+                .success(function (result) {
+                    $('#dvUserdetails').html(result);
+                })
+                .error(function (xhr, status) {
+                    alert(status);
+                })  
+
         });
     </script>
 }
 
-
-<section id="search" class="well">
-
-    <div class="form-group">
-        <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
-            <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" />
-            <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
-                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-            </div>
-        </div>
-    </div>
-
-
-</section>
 

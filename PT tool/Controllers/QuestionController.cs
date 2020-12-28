@@ -21,8 +21,10 @@ namespace PT_tool.Controllers
         }
 
         // GET: Question/Create
-        public ActionResult Create()
+        public ActionResult GetAllQuestions(string S_date, string E_date)
         {
+            var token = HttpContext.Session["token"];
+
             return View();
         }
 

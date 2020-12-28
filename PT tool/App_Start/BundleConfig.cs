@@ -28,11 +28,10 @@ namespace PT_tool
 
             //mine
             bundles.Add(new ScriptBundle("~/bundles/bootstrap-datetimepicker").Include(
-                        "~/Scripts/moment.min.js",
-                        "~/Scripts/bootstrap-datetimepicker.min.js"));
+                        "~/Scripts/gijgo/combined/gijgo.js"                        ));
 
             bundles.Add(new StyleBundle("~/Content/css-m").Include(
-                      "~/Content/bootstrap-datetimepicker.min.css"));
+                      "~/Content/gijgo/combined/gijgo.css"));
 
 
         }
