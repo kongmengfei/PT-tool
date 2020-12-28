@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PT_tool.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -24,8 +25,11 @@ namespace PT_tool.Controllers
         public ActionResult GetAllQuestions(string S_date, string E_date)
         {
             var token = HttpContext.Session["token"];
+            //fake data
+            
+            var questionlist= new QuestionDetail[] {new QuestionDetail()}
 
-            return View();
+            return PartialView();
         }
 
         // POST: Question/Create
