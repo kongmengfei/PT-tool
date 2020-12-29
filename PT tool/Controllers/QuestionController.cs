@@ -30,23 +30,7 @@ namespace PT_tool.Controllers
             var questionlist= new QuestionDetail[] {new QuestionDetail()}
 
             return PartialView();
-        }
-
-        // POST: Question/Create
-        [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        }        
 
         // GET: Question/Edit/5
         public ActionResult Edit(int id)
