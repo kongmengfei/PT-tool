@@ -23,8 +23,8 @@
     </div>
 
 </section>
-
-<div id="QuestionTable">
+<hr />
+<div id="QuestionTable" >
 
 
 
@@ -34,26 +34,42 @@
 @section scripts{
     <script type="text/javascript">
         $(function () {
-            $('#datepicker1').datepicker({
-                uiLibrary: 'bootstrap4'
-            });
-            $('#datepicker2').datepicker({
-                uiLibrary: 'bootstrap4'
+
+            var $datepicker1 = $('#datepicker1').datepicker({
+                uiLibrary: 'bootstrap4',
+                locale: 'zh-cn',
+                format: 'yyyy-mm-dd'
             });
 
-            //
-            $.ajax({
-                url: '/Home/GetUserDetails',
-                contentType: 'application/html; charset=utf-8',
-                type: 'GET',
-                dataType: 'html'
-            })
-                .success(function (result) {
-                    $('#QuestionTable').html(result);
+            var $datepicker2 = $('#datepicker2').datepicker({
+                uiLibrary: 'bootstrap4',
+                locale: 'zh-cn',
+                format: 'yyyy-mm-dd'
+            });
+
+            //Search button
+            $("#btnSearch").click(function () {
+
+                let startDate = $datepicker1.value();
+                let endDate = $datepicker2.value();
+
+                console.log(startDate);
+
+                $.ajax({
+                    url: `/Question/GetAllQuestions?start=${startDate}&end=${endDate}`,
+                    contentType: 'application/html; charset=utf-8',
+                    type: 'GET',
+                    dataType: 'html'
                 })
-                .error(function (xhr, status) {
-                    alert(status);
-                })
+                    .done(function (result) {
+                        $('#QuestionTable').html(result);
+                    })
+                    .fail(function (xhr, status) {
+                        alert(status);
+                    });
+            });
+
+
 
         });
     </script>

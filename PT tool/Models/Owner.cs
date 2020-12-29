@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace PT_tool.Models
 {
+    [JsonObjectAttribute("owner")]
     public class Owner
     {
         public Guid id { get; set; }
