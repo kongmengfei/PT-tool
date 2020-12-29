@@ -1,0 +1,3701 @@
+[
+    {
+        "question": {
+            "id": 2713084,
+            "title": "Error when use rest api to get SPList in SharePoint online",
+            "link": "https://docs.microsoft.com/answers/questions/148121/error-when-use-rest-api-to-get-splist-in-sharepoin.html",
+            "create_date": "1604307181",
+            "question_id": "148121",
+            "platform": "microsoft q&a",
+            "owner_id": "2834527",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1604367562",
+            "raw_status": "New Issue",
+            "irt_include_comment": 60381,
+            "irt_exclude_comment": 60381,
+            "view_count": 12,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-03T02:02:07.727",
+            "tags": "office-sharepoint-online;power-query-dataflows",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 107,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4750636,
+            "question_id_key": "2713084",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-11-03T01:39:40.59",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1753301,
+                "qid": 2713084,
+                "question_id": "148121",
+                "platform": "microsoft q&a",
+                "parent_id": "148121",
+                "parent_type": "question",
+                "post_id": "148121",
+                "create_date": "1604307181",
+                "sentiment": 0.00143831968,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 898461,
+                "alias": "v-mekong",
+                "qid": "2713084",
+                "ut": 107,
+                "log_at": "2020-11-03T09:42:06.57",
+                "comment": "Subjective: Error when use rest api to get SPList in SharePoint online\n\n===================\n \n<Describe the question or the issue in your own words>\n \nRest api prompt an error that cannot find such a list\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint 2013\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @TranPhuocKhanhLuan-9798,\nFrom the error screenshot, I suspect the list title parameter you specified in getByTitle() is not correct, thus it did not find such a list.\nFor example, my SPO site has below document library, it's a default library after site creation.\n \nIts list title is 'Documents'. 'Shared Documents' is a library name or root folder. You can find the title of a list through list/library settings:\n \nBest Regards,\n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2718010,
+            "title": "RegionalSettings.TimeZone.UTCToLocalTime will always return 01/01/0001 00:00:00",
+            "link": "https://docs.microsoft.com/answers/questions/151460/regionalsettingstimezoneutctolocaltime-will-always.html",
+            "create_date": "1604515143",
+            "question_id": "151460",
+            "platform": "microsoft q&a",
+            "owner_id": "917013",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1604546252",
+            "raw_status": "New Issue",
+            "irt_include_comment": 31109,
+            "irt_exclude_comment": 31109,
+            "view_count": 8,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-05T04:00:59.16",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 107,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4760584,
+            "question_id_key": "2718010",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-11-05T04:55:14",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1759154,
+                "qid": 2718010,
+                "question_id": "151460",
+                "platform": "microsoft q&a",
+                "parent_id": "151460",
+                "parent_type": "question",
+                "post_id": "151460",
+                "create_date": "1604515143",
+                "sentiment": 0.9954926,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 900773,
+                "alias": "v-mekong",
+                "qid": "2718010",
+                "ut": 107,
+                "log_at": "2020-11-05T09:39:17.327",
+                "comment": "Subjective: RegionalSettings.TimeZone.UTCToLocalTime will always return 01/01/0001 00:00:00\n\n===================\n \n<Describe the question or the issue in your own words>\n \nCsom convert utc date to local format\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @johnjohn-0472,\nThe operation has not been submitted, thus it will output the blank date. Please add following snnipet to your code:\n1.\t var spTimeZone = context.Web.RegionalSettings.TimeZone;\n2.\t ClientResult<DateTime> cr = spTimeZone.UTCToLocalTime({your date});\n3.\t context.ExecuteQuery();\n4.\t    \n5.\t Console.WriteLine(cr.Value);\n\n\nBest Regards,\n \n \n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.\n",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2723322,
+            "title": "Is there any way to have a static custom made SPFx web-part in a page-layout template have created in Design manager",
+            "link": "https://docs.microsoft.com/answers/questions/155170/is-there-any-way-to-have-a-static-custom-made-spfx.html",
+            "create_date": "1604827787",
+            "question_id": "155170",
+            "platform": "microsoft q&a",
+            "owner_id": "2550010",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1605612216",
+            "raw_status": "Follow Up",
+            "irt_include_comment": 78703,
+            "irt_exclude_comment": 78703,
+            "view_count": 41,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-17T12:01:07.68",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Follow Up",
+            "color": null,
+            "ut": 108,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4797399,
+            "question_id_key": "2723322",
+            "status": "42",
+            "alias": "system",
+            "log_at": "2020-11-14T15:01:16.823",
+            "activity": true,
+            "action_rule": {
+                "id": 42,
+                "rule_name": "Follow Up",
+                "is_visible": false,
+                "platform": "se",
+                "color": "red"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1765402,
+                "qid": 2723322,
+                "question_id": "155170",
+                "platform": "microsoft q&a",
+                "parent_id": "155170",
+                "parent_type": "question",
+                "post_id": "155170",
+                "create_date": "1604827787",
+                "sentiment": 0.8996452,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 903119,
+                "alias": "v-mekong",
+                "qid": "2723322",
+                "ut": 108,
+                "log_at": "2020-11-09T09:40:28.333",
+                "comment": "Subjective: Is there any way to have a static custom made SPFx web-part in a page-layout template have created in Design manager\n\n===================\n \n<Describe the question or the issue in your own words>\n \nAdd spfx web part to page layout\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \n Hi @sajithgh,\nThere is a similar issue that has been answered in TN forum, can you please take a reference?\n•\thttps://social.technet.microsoft.com/Forums/azure/en-US/00468682-cde3-4004-a814-bd18cc9cffd4/how-to-insert-spfx-web-part-in-page-layout-sharepoint-classic-experiences?forum=onlineservicessharepoint\nBest Regards,\nBaker Kong\n \n \n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2724738,
+            "title": "Publishing Image not rendering using spfx",
+            "link": "https://docs.microsoft.com/answers/questions/156376/publishing-image-not-rendering-using-spfx.html",
+            "create_date": "1604928717",
+            "question_id": "156376",
+            "platform": "microsoft q&a",
+            "owner_id": "2550010",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1605581333",
+            "raw_status": "New Issue",
+            "irt_include_comment": 42885,
+            "irt_exclude_comment": 61336,
+            "view_count": 63,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-17T03:00:25.787",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4804342,
+            "question_id_key": "2724738",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-11-17T02:49:00.45",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1767291,
+                "qid": 2724738,
+                "question_id": "156376",
+                "platform": "microsoft q&a",
+                "parent_id": "156376",
+                "parent_type": "question",
+                "post_id": "156376",
+                "create_date": "1604928717",
+                "sentiment": 0.5,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 904231,
+                "alias": "v-mekong",
+                "qid": "2724738",
+                "ut": 105,
+                "log_at": "2020-11-10T09:37:15.23",
+                "comment": "Subjective: Publishing Image not rendering using spfx\n\n===================\n \n<Describe the question or the issue in your own words>\n \nSpfx get publishing image column\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @sajithgh,\nI followed below doc to create a Publishing Image column:\n•\thttps://support.microsoft.com/en-us/office/add-publishing-columns-to-content-types-lists-or-libraries-4e268d2e-4822-4bc6-a992-88287119a052\nAnd I find that it won't return this column when we retrieve item via below rest API:\n_api/lists/getbytitle('listname')/items\nHowever, below endpoint could response the related info:\n_api/Web/Lists(guid'7xx5')/Items(1)/FieldValuesAsHtml\n \nSo I think you may need to change the request URL to get the publishing image column.\nMore references:\n•\thttps://social.msdn.microsoft.com/Forums/lync/en-US/3e4e4751-899b-4e40-91fe-e05f39f35047/read-publishing-image-column-value-using-rest-api?forum=sharepointdevelopment\nBest Regards,\n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2727866,
+            "title": "Get Most Recent Documents from a Specific Sharepoint library",
+            "link": "https://docs.microsoft.com/answers/questions/158371/get-most-recent-documents-from-a-specific-sharepoi.html",
+            "create_date": "1605042381",
+            "question_id": "158371",
+            "platform": "microsoft q&a",
+            "owner_id": "4590405",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1605117913",
+            "raw_status": "Answered",
+            "irt_include_comment": 36451,
+            "irt_exclude_comment": 36451,
+            "view_count": 14,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-11T19:02:28.803",
+            "tags": "office-sharepoint-server-development;office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4785734,
+            "question_id_key": "2727866",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-11-11T19:03:12.167",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1770540,
+                "qid": 2727866,
+                "question_id": "158371",
+                "platform": "microsoft q&a",
+                "parent_id": "158371",
+                "parent_type": "question",
+                "post_id": "158371",
+                "create_date": "1605042381",
+                "sentiment": 0.93390274,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 905367,
+                "alias": "v-mekong",
+                "qid": "2727866",
+                "ut": 105,
+                "log_at": "2020-11-11T09:48:09.18",
+                "comment": "Subjective: Get Most Recent Documents from a Specific Sharepoint library\n\n===================\n \n<Describe the question or the issue in your own words>\n \nGet most Recent Documents\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @Krishna-9245,\nI believe there is no such endpoint to get the most recent documents from a specific Sharepoint library. Site usage and Recent documents web part could display the most recent documents accessed by the current user of the page.\n•\tSite usage\n \nBy means of F12 tool, we can find the Request url :\n1.\t https://abc.sharepoint.com/_api/v2.1/sites/abc.sharepoint.com,5ae427d1-c859-4c58-97c4-e20ad27b850b,352d1542-3d0a-4f99-a529-723e41552082/items?$filter=isof('oneDrive.Item') AND oneDrive.item/file ne null&$expand=analytics($expand=lastSevenDays)&$orderby=analytics/lastSevenDays/access/actorCount desc\n\n\n•\tBehind request of recent documents\nHowever all the above cannot scope into a specific Sharepoint library, their target is the site.\nBest Regards,\n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2754885,
+            "title": "How to show presentations and share screen?",
+            "link": "https://docs.microsoft.com/answers/questions/176873/how-to-show-presentations-and-share-screen.html",
+            "create_date": "1606385703",
+            "question_id": "176873",
+            "platform": "microsoft q&a",
+            "owner_id": "4797554",
+            "answer_count": 0,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1606459180",
+            "raw_status": "New Issue",
+            "irt_include_comment": 73477,
+            "irt_exclude_comment": null,
+            "view_count": 11,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-27T07:02:31.067",
+            "tags": "office-sharepoint-server-development;office-sharepoint-server-administration",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 47,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4846940,
+            "question_id_key": "2754885",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-11-27T09:20:06.423",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1801305,
+                "qid": 2754885,
+                "question_id": "176873",
+                "platform": "microsoft q&a",
+                "parent_id": "176873",
+                "parent_type": "question",
+                "post_id": "176873",
+                "create_date": "1606385703",
+                "sentiment": 0.135129869,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 920906,
+                "alias": "v-mekong",
+                "qid": "2754885",
+                "ut": 47,
+                "log_at": "2020-11-27T09:20:37.863",
+                "comment": "How to show presentations and share screen?\nHi @GabelkoMariia-1305,\n\nI noticed that this issue has been tagged with \"SharePoint\" however it seems to be related to presentations and an app somehow. Can I know more details? The more information you provide, the easier it is for us to investigate or route.\n\nThanks\nBaker Kong",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2743884,
+            "title": "SP List validation refresh page on submit does not retain custom dropdown value",
+            "link": "https://docs.microsoft.com/answers/questions/169473/sp-list-validation-refresh-page-on-submit-does-not.html",
+            "create_date": "1605854845",
+            "question_id": "169473",
+            "platform": "microsoft q&a",
+            "owner_id": "3222640",
+            "answer_count": 2,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1606191958",
+            "raw_status": "Answered",
+            "irt_include_comment": 243485,
+            "irt_exclude_comment": 243485,
+            "view_count": 22,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-24T05:00:35.9",
+            "tags": "office-sharepoint-server-development;office-sharepoint-online;office-sharepoint-server-customization",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4831311,
+            "question_id_key": "2743884",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-11-24T05:01:15.077",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1789328,
+                "qid": 2743884,
+                "question_id": "169473",
+                "platform": "microsoft q&a",
+                "parent_id": "169473",
+                "parent_type": "question",
+                "post_id": "169473",
+                "create_date": "1605854845",
+                "sentiment": 0.0916264355,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1795848,
+                "qid": 2743884,
+                "question_id": "169473",
+                "platform": "microsoft q&a",
+                "parent_id": "169473",
+                "parent_type": "question",
+                "post_id": "173016",
+                "create_date": "1606191958",
+                "sentiment": 0.995895,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 916567,
+                "alias": "v-mekong",
+                "qid": "2743884",
+                "ut": 105,
+                "log_at": "2020-11-23T09:53:25.883",
+                "comment": "Subjective: SP List validation refresh page on submit does not retain custom dropdown value\n\n===================\n \n<Describe the question or the issue in your own words>\n \nDropdown control did not keep value after page refresh\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \n \nHi @ShridharHegde-2034,\nThe options filled in the dropdown control come from an asynchronous request. When the page reloads, $('#CT100_DropdownChoice').val(selItem); won't take effect as there is no such an option at that time.\nSo you can put the above snippet in the callback of the request:\n \nTest:\n \nBest Regards,\n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.\n\n",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "APAC"
+    },
+    {
+        "question": {
+            "id": 2741145,
+            "title": "How can i add drop down list in particular table row td ( cell num is 7 ) when click edit button",
+            "link": "https://docs.microsoft.com/answers/questions/167557/how-can-i-add-drop-down-list-in-particular-table-r.html",
+            "create_date": "1605728552",
+            "question_id": "167557",
+            "platform": "microsoft q&a",
+            "owner_id": "1051243",
+            "answer_count": 2,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1606093846",
+            "raw_status": "Answered",
+            "irt_include_comment": 21668,
+            "irt_exclude_comment": 21668,
+            "view_count": 29,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-23T03:07:59.09",
+            "tags": "office-sharepoint-server-development",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4826404,
+            "question_id_key": "2741145",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-11-23T03:08:06.863",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1786108,
+                "qid": 2741145,
+                "question_id": "167557",
+                "platform": "microsoft q&a",
+                "parent_id": "167557",
+                "parent_type": "question",
+                "post_id": "167557",
+                "create_date": "1605728552",
+                "sentiment": 0.905221343,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1791694,
+                "qid": 2741145,
+                "question_id": "167557",
+                "platform": "microsoft q&a",
+                "parent_id": "167557",
+                "parent_type": "question",
+                "post_id": "170805",
+                "create_date": "1605966027",
+                "sentiment": 0.9984232,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 914172,
+                "alias": "v-mekong",
+                "qid": "2741145",
+                "ut": 105,
+                "log_at": "2020-11-19T09:56:48.787",
+                "comment": "Subjective: How can i add drop down list in particular table row td ( cell num is 7 ) when click edit button\n\n===================\n \n<Describe the question or the issue in your own words>\n \nHelp to fix error on js table\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @MohammadQasim-1438,\nCan you share the source code or JS library? We cannot know the element properties or reproduce this issue.\nIf $('#tredit_' + id) is a <tr> tag, then its parent should be the table and find(\"td:nth-child(8)\").append(inputElement); will add dropdown to all rows.\nThanks\nI suspect the id of TD is the same. I may need to test at my side. Can you please share the full code including how to generate table? using txt format? You can share it through github or onedrive.\nThanks\n \n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2766564,
+            "title": "Search Display Template with Refiner - refresh page when refiner is selected",
+            "link": "https://docs.microsoft.com/answers/questions/185390/search-display-template-with-refiner-refresh-page.html",
+            "create_date": "1607029685",
+            "question_id": "185390",
+            "platform": "microsoft q&a",
+            "owner_id": "3584658",
+            "answer_count": 0,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1607505977",
+            "raw_status": "New Issue",
+            "irt_include_comment": 40959,
+            "irt_exclude_comment": null,
+            "view_count": 18,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-09T10:03:30.88",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Follow Up",
+            "color": null,
+            "ut": 0,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4874468,
+            "question_id_key": "2766564",
+            "status": "42",
+            "alias": "system",
+            "log_at": "2020-12-04T22:02:50.17",
+            "activity": true,
+            "action_rule": {
+                "id": 42,
+                "rule_name": "Follow Up",
+                "is_visible": false,
+                "platform": "se",
+                "color": "red"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1815321,
+                "qid": 2766564,
+                "question_id": "185390",
+                "platform": "microsoft q&a",
+                "parent_id": "185390",
+                "parent_type": "question",
+                "post_id": "185390",
+                "create_date": "1607029685",
+                "sentiment": 0.9875587,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2775190,
+            "title": "Custom Apps not visible in Site Contents > Your apps page",
+            "link": "https://docs.microsoft.com/answers/questions/192325/custom-apps-not-visible-in-site-contents-gt-your-a.html",
+            "create_date": "1607531277",
+            "question_id": "192325",
+            "platform": "microsoft q&a",
+            "owner_id": "3967123",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1607568926",
+            "raw_status": "New Issue",
+            "irt_include_comment": 37649,
+            "irt_exclude_comment": 37649,
+            "view_count": 13,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-10T03:01:52.887",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "New Issue",
+            "color": null,
+            "ut": 104,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4890052,
+            "question_id_key": "2775190",
+            "status": "10",
+            "alias": "system",
+            "log_at": "2020-12-09T18:03:18.437",
+            "activity": true,
+            "action_rule": {
+                "id": 10,
+                "rule_name": "New Issue",
+                "is_visible": false,
+                "platform": "se",
+                "color": "blue"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1826070,
+                "qid": 2775190,
+                "question_id": "192325",
+                "platform": "microsoft q&a",
+                "parent_id": "192325",
+                "parent_type": "question",
+                "post_id": "192325",
+                "create_date": "1607531277",
+                "sentiment": 0.06933218,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 930842,
+                "alias": "v-mekong",
+                "qid": "2775190",
+                "ut": 104,
+                "log_at": "2020-12-10T09:19:07.963",
+                "comment": "Subjective: Custom Apps not visible in Site Contents > Your apps page\n\n===================\n \n<Describe the question or the issue in your own words>\nCustom Apps not visible in Site Contents > Your apps page\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @PushpanjayUmrao-3126,\nI have met this issue before but it auto got fixed in the next day. Just talked with the Office 365 team, we suggest you wait for some time. If it persists, please directly submit a service request from the effected tenant, the corresponding team need to collect the information from the affected tenant and investigate it further.\nBest Regards,\n \n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.\n\n",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2750737,
+            "title": "SP List  web api REST query Issue",
+            "link": "https://docs.microsoft.com/answers/questions/174149/sp-list-web-api-rest-query-issue.html",
+            "create_date": "1606247762",
+            "question_id": "174149",
+            "platform": "microsoft q&a",
+            "owner_id": "3222640",
+            "answer_count": 2,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1606586376",
+            "raw_status": "Answered",
+            "irt_include_comment": 40172,
+            "irt_exclude_comment": 40172,
+            "view_count": 22,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-28T18:01:15.697",
+            "tags": "office-sharepoint-online;office-sharepoint-server-development;office-sharepoint-server-customization",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 104,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4849825,
+            "question_id_key": "2750737",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-11-28T18:02:00.22",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1797621,
+                "qid": 2750737,
+                "question_id": "174149",
+                "platform": "microsoft q&a",
+                "parent_id": "174149",
+                "parent_type": "question",
+                "post_id": "174149",
+                "create_date": "1606247762",
+                "sentiment": 0.9999589,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1804914,
+                "qid": 2750737,
+                "question_id": "174149",
+                "platform": "microsoft q&a",
+                "parent_id": "174149",
+                "parent_type": "question",
+                "post_id": "178994",
+                "create_date": "1606586376",
+                "sentiment": 0.987570941,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 918802,
+                "alias": "v-mekong",
+                "qid": "2750737",
+                "ut": 104,
+                "log_at": "2020-11-25T09:36:08.913",
+                "comment": "Subjective: SP List web api REST query Issue\n\n===================\n \n<Describe the question or the issue in your own words>\n \nRest api issue. Inner join\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @Shri-6058，\nI understand EmpNumber stand for the id of employees (including general employees and managers), while ManagerId is the \"EmpNumber\" of managers. Now you want to query rows those \"EmpNumber\" in fact stand for a manager.\nIn my opinion, it's not able to achieve it in one step. First we have to get all manager records and remove all duplicated elements.\nFor example, we get all managerid: /items?$select= ManagerId, the result will be an array.\n \nRemove duplicates using JS code:\nresponse.d.results.reduce((accumulator, current) => accumulator.find(item => item.ManagerId === current.ManagerId) ? accumulator : accumulator.push(current) && accumulator, []);\nAfter that, we can generate a caml query with In element to get rows that their \"EmpNumber\" fall in the above array.\n1.\t let optionValues = filteredArray.map(e => `<Value Type='Text'>${e.ManagerId}</Value>`).join('');\n2.\t     var caml = `<View><Query><Where><In><FieldRef Name='EmpNumber' /><Values>${optionValues}</Values></In></Where></Query></View>`;\n3.\t    \n4.\t     var data = {\n5.\t         \"query\": {\n6.\t             \"__metadata\": { \"type\": \"SP.CamlQuery\" },\n7.\t             \"ViewXml\": caml\n8.\t         }\n9.\t     };\n\n\nYou can check the full demo code here:\n•\thttps://github.com/kongmengfei/sharedproject/blob/master/jssharing/autocomplete/caml-in,js\nNote that my test columns are 'single line text' fields.\nBest Regards,\n \n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.\n\n",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2756246,
+            "title": "Sharepoint - scripts not fully loading on custom login page",
+            "link": "https://docs.microsoft.com/answers/questions/178096/sharepoint-scripts-not-fully-loading-on-custom-log.html",
+            "create_date": "1606470168",
+            "question_id": "178096",
+            "platform": "microsoft q&a",
+            "owner_id": "4808968",
+            "answer_count": 0,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1606812020",
+            "raw_status": "New Issue",
+            "irt_include_comment": 341852,
+            "irt_exclude_comment": null,
+            "view_count": 24,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-01T09:01:07.927",
+            "tags": "office-sharepoint-server-administration",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Researching",
+            "color": null,
+            "ut": 30,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4870313,
+            "question_id_key": "2756246",
+            "status": "4",
+            "alias": "v-mekong",
+            "log_at": "2020-12-04T01:14:05.527",
+            "activity": true,
+            "action_rule": {
+                "id": 4,
+                "rule_name": "Researching",
+                "is_visible": true,
+                "platform": "se",
+                "color": "deep-orange"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1803159,
+                "qid": 2756246,
+                "question_id": "178096",
+                "platform": "microsoft q&a",
+                "parent_id": "178096",
+                "parent_type": "question",
+                "post_id": "178096",
+                "create_date": "1606470168",
+                "sentiment": 0.0,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 933053,
+                "alias": "v-mekong",
+                "qid": "2756246",
+                "ut": 30,
+                "log_at": "2020-12-14T09:49:27.75",
+                "comment": "Sharepoint - scripts not fully loading on custom login page\nHi @RichardNewton-8682,\n\nThis issue seems to be troubleshooting and it requires a specified environment. We suggest you raise a ticket on SP Server Support, the specialized service group will troubleshoot it and help it further.\n\nThanks",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2715683,
+            "title": "How to remove unwanted file extension in SharePoint document library",
+            "link": "https://docs.microsoft.com/answers/questions/149898/how-to-remove-unwanted-file-extension-in-sharepoin.html",
+            "create_date": "1604414130",
+            "question_id": "149898",
+            "platform": "microsoft q&a",
+            "owner_id": "2745860",
+            "answer_count": 5,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1604674793",
+            "raw_status": "Answered",
+            "irt_include_comment": 3990,
+            "irt_exclude_comment": 3990,
+            "view_count": 43,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-06T16:18:13.243",
+            "tags": "office-sharepoint-online;office-sharepoint-server-administration;windows-server-powershell;office-sharepoint-server-development",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 113,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4768268,
+            "question_id_key": "2715683",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-11-06T16:18:53.783",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1756304,
+                "qid": 2715683,
+                "question_id": "149898",
+                "platform": "microsoft q&a",
+                "parent_id": "149898",
+                "parent_type": "question",
+                "post_id": "149898",
+                "create_date": "1604414130",
+                "sentiment": 0.1417836,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1757642,
+                "qid": 2715683,
+                "question_id": "149898",
+                "platform": "microsoft q&a",
+                "parent_id": "149898",
+                "parent_type": "question",
+                "post_id": "150761",
+                "create_date": "1604468243",
+                "sentiment": 0.9832996,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1763757,
+                "qid": 2715683,
+                "question_id": "149898",
+                "platform": "microsoft q&a",
+                "parent_id": "149898",
+                "parent_type": "question",
+                "post_id": "154306",
+                "create_date": "1604674735",
+                "sentiment": 0.993379653,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 899562,
+                "alias": "v-mekong",
+                "qid": "2715683",
+                "ut": 113,
+                "log_at": "2020-11-04T09:19:02.22",
+                "comment": "Subjective: How to remove unwanted file extension in SharePoint document library\n\n===================\n \n<Describe the question or the issue in your own words>\n \nReplace file extensions in sp document libraries\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint 2013\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @WatsonAdam-2727,\nDo you have to rename the targeted files through the mapping drive? Is it acceptable to use pnp powershell?\n1.\t #Set Variables\n2.\t $SiteURL = \"https://abc.sharepoint.com/sites/s01\"\n3.\t     \n4.\t #Connect to PNP Online\n5.\t Connect-PnPOnline -Url $SiteURL -UseWebLogin\n6.\t    \n7.\t $files= Find-PnPFile -List \"Documents\" -Match *.png\n8.\t    \n9.\t foreach ($f in $files) {\n10.\t     $f.ServerRelativeUrl \n11.\t    \n12.\t     $name= '0'+ $f.Name  // rename it with your own name\n13.\t    \n14.\t     Rename-PnPFile -TargetFileName $name -ServerRelativeUrl $f.ServerRelativeUrl\n15.\t }\nOr\n- https://www.m365-dev.com/2020/05/14/find-sharepoint-documents-by-file-extension/\nBest Regards,\nThis limitation should come from Windows (Get-ChildItem). For SP related PowerShell, I believe it won't trigger this limit.\nI did a test on my SPO library. I created 10 level subfolder and paste some files.\n \n\n\nI believe its path length is over 300. If I use Get-ChildItem in the mapped drive, it will prompt errors:\n \nBut if I use SP PNP PowerShell, it works fine.\n1.\t // replace extension    \n2.\t $name= '0'+ ($f.Name.Split('.ps2') -join '').Trim()  + '.ps6'\nThanks\n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2718419,
+            "title": "SharePoint list dropdownfield autopopulate from external list",
+            "link": "https://docs.microsoft.com/answers/questions/151728/sharepoint-list-dropdownfield-autopopulate-from-ex.html",
+            "create_date": "1604531293",
+            "question_id": "151728",
+            "platform": "microsoft q&a",
+            "owner_id": "3222640",
+            "answer_count": 6,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1605896567",
+            "raw_status": "Answered",
+            "irt_include_comment": 12000,
+            "irt_exclude_comment": 31211,
+            "view_count": 77,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-20T19:01:49.56",
+            "tags": "office-sharepoint-online;office-sharepoint-server-development;office-sharepoint-server-customization",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 107,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4765558,
+            "question_id_key": "2718419",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-11-06T05:14:58.843",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1759749,
+                "qid": 2718419,
+                "question_id": "151728",
+                "platform": "microsoft q&a",
+                "parent_id": "151728",
+                "parent_type": "question",
+                "post_id": "151728",
+                "create_date": "1604531293",
+                "sentiment": 0.5,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1760248,
+                "qid": 2718419,
+                "question_id": "151728",
+                "platform": "microsoft q&a",
+                "parent_id": "151728",
+                "parent_type": "question",
+                "post_id": "152028",
+                "create_date": "1604554632",
+                "sentiment": 0.16866374,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1762654,
+                "qid": 2718419,
+                "question_id": "151728",
+                "platform": "microsoft q&a",
+                "parent_id": "151728",
+                "parent_type": "question",
+                "post_id": "153639",
+                "create_date": "1604648971",
+                "sentiment": 0.783863068,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1789443,
+                "qid": 2718419,
+                "question_id": "151728",
+                "platform": "microsoft q&a",
+                "parent_id": "151728",
+                "parent_type": "question",
+                "post_id": "169541",
+                "create_date": "1605857594",
+                "sentiment": 0.0158568621,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1790810,
+                "qid": 2718419,
+                "question_id": "151728",
+                "platform": "microsoft q&a",
+                "parent_id": "151728",
+                "parent_type": "question",
+                "post_id": "170373",
+                "create_date": "1605896567",
+                "sentiment": 0.9654665,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 900770,
+                "alias": "v-mekong",
+                "qid": "2718419",
+                "ut": 107,
+                "log_at": "2020-11-05T09:38:05.07",
+                "comment": "Subjective: SharePoint list dropdownfield autopopulate from external list\n\n===================\n \n<Describe the question or the issue in your own words>\n \nGet item from sp list then populate into dropdown\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \n Hi @ShridharHegde-2034,\nI tested your code with Jquery UI on the SP page. When I enter characters in the box, it will prompt a drop-down list to help autocomplete.\n \nCan I know what kind of dropdown you're trying to develop? Do you want to add an arrow icon button to hide/display the pop panel?\nThanks\nHi @ShridharHegde-2034,\nI understand you're trying to populate list items to a select tag as options. Please take a reference of below code:\n•\thttps://github.com/kongmengfei/sharedproject/blob/master/jssharing/autocomplete/dropdown.js\nAfter pasting the code in your SP page, please full refresh the page or test it in a private window as there might be some cache remained.\nBest Regards,\n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.\n\n",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2760161,
+            "title": "Fetch sharepoint document set all files and fields using rest api url",
+            "link": "https://docs.microsoft.com/answers/questions/180585/fetch-sharepoint-document-set-all-files-and-fields.html",
+            "create_date": "1606761174",
+            "question_id": "180585",
+            "platform": "microsoft q&a",
+            "owner_id": "4783473",
+            "answer_count": 2,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1608011977",
+            "raw_status": "Answered",
+            "irt_include_comment": 26639,
+            "irt_exclude_comment": 26639,
+            "view_count": 26,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-15T07:03:11.047",
+            "tags": "office-sharepoint-server-development",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 103,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4907745,
+            "question_id_key": "2760161",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-12-15T07:03:35.07",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1807745,
+                "qid": 2760161,
+                "question_id": "180585",
+                "platform": "microsoft q&a",
+                "parent_id": "180585",
+                "parent_type": "question",
+                "post_id": "180585",
+                "create_date": "1606761174",
+                "sentiment": 0.9544735,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1835675,
+                "qid": 2760161,
+                "question_id": "180585",
+                "platform": "microsoft q&a",
+                "parent_id": "180585",
+                "parent_type": "question",
+                "post_id": "198623",
+                "create_date": "1608011977",
+                "sentiment": 0.9800106,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 923365,
+                "alias": "v-mekong",
+                "qid": "2760161",
+                "ut": 103,
+                "log_at": "2020-12-01T09:17:23.83",
+                "comment": "Subjective: Fetch sharepoint document set all files and fields using rest api url\n\n===================\n \n<Describe the question or the issue in your own words>\n \nRest api get document set \n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @Nagendra-9029,\nYou can query the document set just like querying folders.\n/_api/Web/GetFolderByServerRelativePath(decodedurl='/sites/s01/Nagendra9029DocLib/testdocset01')?$expand=Folders,Files,ListItemAllFields\n \nBest Regards,\nBaker Kong\n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2766475,
+            "title": "SP Timer Job app to use REST Web Api to update data",
+            "link": "https://docs.microsoft.com/answers/questions/185396/sp-timer-job-app-to-use-rest-web-api-to-update-dat.html",
+            "create_date": "1607029244",
+            "question_id": "185396",
+            "platform": "microsoft q&a",
+            "owner_id": "3222640",
+            "answer_count": 4,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1607309671",
+            "raw_status": "New Issue",
+            "irt_include_comment": 20685,
+            "irt_exclude_comment": 20685,
+            "view_count": 40,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-07T03:01:40.973",
+            "tags": "office-sharepoint-online;office-sharepoint-server-development",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 104,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4878967,
+            "question_id_key": "2766475",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-12-07T09:08:42.31",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1815203,
+                "qid": 2766475,
+                "question_id": "185396",
+                "platform": "microsoft q&a",
+                "parent_id": "185396",
+                "parent_type": "question",
+                "post_id": "185396",
+                "create_date": "1607029244",
+                "sentiment": 0.00524416566,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1816225,
+                "qid": 2766475,
+                "question_id": "185396",
+                "platform": "microsoft q&a",
+                "parent_id": "185396",
+                "parent_type": "question",
+                "post_id": "186205",
+                "create_date": "1607066456",
+                "sentiment": 0.9995582,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1817366,
+                "qid": 2766475,
+                "question_id": "185396",
+                "platform": "microsoft q&a",
+                "parent_id": "185396",
+                "parent_type": "question",
+                "post_id": "187000",
+                "create_date": "1607103997",
+                "sentiment": 0.861811161,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 926697,
+                "alias": "v-mekong",
+                "qid": "2766475",
+                "ut": 104,
+                "log_at": "2020-12-04T10:54:56.793",
+                "comment": "Subjective: SP Timer Job app to use REST Web Api to update data\n\n===================\n \n<Describe the question or the issue in your own words>\n \nSP Timer Job app to use REST Web Api to update data\nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @Shri-6058,\n...generate a query REST to return based on parameter. For example, my SP list has all employee list of 5000. I want to return the record based on employee Number. etc.\nWe cannot pass parameters to timer job as it's a daemon app. You can store data somewhere( list, file etc), where your timer job would be able to access them.\n•\thttps://social.msdn.microsoft.com/Forums/en-US/99c4de8f-c83d-4339-ae85-bf29630620f6/pass-parameter-to-timer-job?forum=sharepointdevelopmentprevious\n•\thttps://ranaomerhussain.wordpress.com/2015/03/09/reading-from-web-configs-appsettings-in-a-sharepoint-timer-job/\nIf you just want to filter items, you can append Odata $filter to the URL.\nAs for C# sp timer job, you can take a reference of below samples, they often use SharePoint - Server Object Model to access list data.\n•\thttps://www.c-sharpcorner.com/UploadFile/b8e86c/how-to-create-timer-job-in-sharepoint-2013/\n•\thttps://www.enjoysharepoint.com/create-timer-job-in-sharepoint-2016-programmatically/#How_to_create_a_timer_job_in_SharePoint_2016_programmatically_Step_by_Step\nBest Regards,\n \n \n \n \n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2713090,
+            "title": "Provide Farm Admin privilege without Central Admin",
+            "link": "https://docs.microsoft.com/answers/questions/148078/provide-farm-admin-privilege-without-central-admin.html",
+            "create_date": "1604306571",
+            "question_id": "148078",
+            "platform": "microsoft q&a",
+            "owner_id": "4388596",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1604393914",
+            "raw_status": "New Issue",
+            "irt_include_comment": 63343,
+            "irt_exclude_comment": 63343,
+            "view_count": 23,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-03T09:01:40.887",
+            "tags": "office-sharepoint-server-development;office-sharepoint-server-administration",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 109,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4752161,
+            "question_id_key": "2713090",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-11-03T08:58:59.77",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1753318,
+                "qid": 2713090,
+                "question_id": "148078",
+                "platform": "microsoft q&a",
+                "parent_id": "148078",
+                "parent_type": "question",
+                "post_id": "148078",
+                "create_date": "1604306571",
+                "sentiment": 0.178177625,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 898469,
+                "alias": "v-mekong",
+                "qid": "2713090",
+                "ut": 109,
+                "log_at": "2020-11-03T09:44:37.427",
+                "comment": "Subjective: Provide Farm Admin privilege without Central Admin\n\n===================\n \n<Describe the question or the issue in your own words>\n \nAccess ssom using normal user instead of farm admin\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint 2013\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @SanjayChauhan-0729,\nDo you have to run SSOM using farm admin? I think if you want to elevated privileges, you can have a try below methods:\n•\tSPSecurity.RunWithElevatedPriviledges / SPUserToken\nBest Regards,\nHi SanjayChauhan-0729,\nHas the normal user been granted permissions to access those lists?\nGenerally the app pool account is an admin identify thus we can use SPSecurity.RunWithElevatedPriviledges to elevated privileges as it will run with the privileges of an AppPool identity.\nThanks\n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2730792,
+            "title": "Sharepoint Online Modern Themes Customisation ideas",
+            "link": "https://docs.microsoft.com/answers/questions/160527/sharepoint-online-modern-themes-customisation-idea.html",
+            "create_date": "1605176859",
+            "question_id": "160527",
+            "platform": "microsoft q&a",
+            "owner_id": "3149815",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1605236371",
+            "raw_status": "New Issue",
+            "irt_include_comment": 59512,
+            "irt_exclude_comment": 59512,
+            "view_count": 9,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-13T03:02:13.61",
+            "tags": "office-sharepoint-online;office-sharepoint-server-customization",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4794168,
+            "question_id_key": "2730792",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-11-13T09:27:45.93",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1773936,
+                "qid": 2730792,
+                "question_id": "160527",
+                "platform": "microsoft q&a",
+                "parent_id": "160527",
+                "parent_type": "question",
+                "post_id": "160527",
+                "create_date": "1605176859",
+                "sentiment": 0.9999202,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 909467,
+                "alias": "v-mekong",
+                "qid": "2730792",
+                "ut": 105,
+                "log_at": "2020-11-13T09:27:41.323",
+                "comment": "Subjective: Sharepoint Online Modern Themes Customisation ideas\n\n===================\n \n<Describe the question or the issue in your own words>\n \nModern experience customization\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @ManjunathSiddappa-9503,\nModern experience has no much advantage on DOM customization and Custom JS. it does not support master pages or custom actions. Check below doc to see what it support or not:\nSupported customizations on \"modern\" team sites\nYou may need to use SharePoint Framework Extensions to embed JS on pages. you can take a reference of below samples to check its main functionalities:\n•\tCSS Injection\n•\tbreadcrumb\n•\tStep By Step Procedure To Add A JS File To All Pages In A SPFx Modern Pages Using SharePoint Framework Extension\nBest Regards,\n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.\n",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2768427,
+            "title": "How to get the actual files from SharePoint using Manifest.xml from Azure blob container",
+            "link": "https://docs.microsoft.com/answers/questions/187036/how-to-get-the-actual-files-from-sharepoint-using.html",
+            "create_date": "1607115847",
+            "question_id": "187036",
+            "platform": "microsoft q&a",
+            "owner_id": "522698",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1607321495",
+            "raw_status": "Answered",
+            "irt_include_comment": 193626,
+            "irt_exclude_comment": 193626,
+            "view_count": 20,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-08T18:53:02.307",
+            "tags": "office-sharepoint-online;not-supported-azure",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4885638,
+            "question_id_key": "2768427",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-12-08T18:53:33.747",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1817815,
+                "qid": 2768427,
+                "question_id": "187036",
+                "platform": "microsoft q&a",
+                "parent_id": "187036",
+                "parent_type": "question",
+                "post_id": "187036",
+                "create_date": "1607115847",
+                "sentiment": 0.9416374,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 927644,
+                "alias": "v-mekong",
+                "qid": "2768427",
+                "ut": 105,
+                "log_at": "2020-12-07T09:10:25.733",
+                "comment": "Subjective: How to get the actual files from SharePoint using Manifest.xml from Azure blob container\n\n===================\n \n<Describe the question or the issue in your own words>\n \nHow to get the actual files from SharePoint using Manifest.xml from Azure blob container\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @VishPothaganti-7928,\nSharePoint Import Migration API is designed for ISV to efficiently migrate large amounts of data to SharePoint Online.\nThe SharePoint Migration Export (Asynchronous Metadata Read) API will help to get the metadata of list, document library, file, and folders to reduce the calls in areas: incremental migration, after migration verification and permission settings.\nThis API (CreateSPAsyncReadJob) performs a read operation of a provided URL and then Microsoft aggregates all the information into a designated manifest and moves it to your Azure blob storage. ISVs can read back from the manifest and parse the metadata once it is ready. However, It will not download your documents in the Azure blob storage.\nYou can use PowerShell to automate the download task, here is one such example to connect to SharePoint online document library and download all files with folder structure: https://gallery.technet.microsoft.com/office/documents-from-SharePoint-99e58875#content\nBest Regards,\n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.\n\n",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2771979,
+            "title": "HTML Links in SharePoint not working anymore",
+            "link": "https://docs.microsoft.com/answers/questions/189818/html-links-in-sharepoint-not-working-anymore.html",
+            "create_date": "1607395152",
+            "question_id": "189818",
+            "platform": "microsoft q&a",
+            "owner_id": "4941075",
+            "answer_count": 2,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1607417759",
+            "raw_status": "New Issue",
+            "irt_include_comment": 18676,
+            "irt_exclude_comment": 18676,
+            "view_count": 13,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-08T09:00:17.22",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "New Issue",
+            "color": null,
+            "ut": 104,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4882318,
+            "question_id_key": "2771979",
+            "status": "10",
+            "alias": "system",
+            "log_at": "2020-12-08T03:02:00.553",
+            "activity": true,
+            "action_rule": {
+                "id": 10,
+                "rule_name": "New Issue",
+                "is_visible": false,
+                "platform": "se",
+                "color": "blue"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1822029,
+                "qid": 2771979,
+                "question_id": "189818",
+                "platform": "microsoft q&a",
+                "parent_id": "189818",
+                "parent_type": "question",
+                "post_id": "189818",
+                "create_date": "1607395152",
+                "sentiment": 0.162963331,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1822449,
+                "qid": 2771979,
+                "question_id": "189818",
+                "platform": "microsoft q&a",
+                "parent_id": "189818",
+                "parent_type": "question",
+                "post_id": "190199",
+                "create_date": "1607415962",
+                "sentiment": 0.8766285,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 928873,
+                "alias": "v-mekong",
+                "qid": "2771979",
+                "ut": 104,
+                "log_at": "2020-12-08T09:52:40.433",
+                "comment": "Subjective: HTML Links in SharePoint not working anymore\n\n===================\n \n<Describe the question or the issue in your own words>\n \nHTML Links in SharePoint not working anymore\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @Oliver-3090,\nMay I know what kind of URL it's? Just have a test, if the URL is relative, the current site URL will be appended to the front of the link. If it's an absolute URL, nothing will be changed. You can use F12 tool to inspect the element to check it's real URL.\nBest Regards,\nIs there any custom script that will change this href? Does this issue occur on other sites? You can have a try it on another new site/page to see if it will occur?\nThanks\nNo I believe there are no such changes that will probably cause this issue. In fact, the script editor works fine in my SPO environment. I suggest you also tried it on another site collection as some script will target to the whole site collection (master page script, custom action scriptLink .etc).\nThanks\n \n \n \n \n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "APAC"
+    },
+    {
+        "question": {
+            "id": 2772770,
+            "title": "Guest Users cannot access SharePoint data using REST",
+            "link": "https://docs.microsoft.com/answers/questions/190632/guest-users-cannot-access-sharepoint-data-using-re.html",
+            "create_date": "1607433435",
+            "question_id": "190632",
+            "platform": "microsoft q&a",
+            "owner_id": "4947168",
+            "answer_count": 0,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1607504755",
+            "raw_status": "New Issue",
+            "irt_include_comment": 43763,
+            "irt_exclude_comment": null,
+            "view_count": 13,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-09T10:04:19.183",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Follow Up",
+            "color": null,
+            "ut": 0,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4887742,
+            "question_id_key": "2772770",
+            "status": "42",
+            "alias": "system",
+            "log_at": "2020-12-09T08:02:34.29",
+            "activity": true,
+            "action_rule": {
+                "id": 42,
+                "rule_name": "Follow Up",
+                "is_visible": false,
+                "platform": "se",
+                "color": "red"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1823014,
+                "qid": 2772770,
+                "question_id": "190632",
+                "platform": "microsoft q&a",
+                "parent_id": "190632",
+                "parent_type": "question",
+                "post_id": "190632",
+                "create_date": "1607433435",
+                "sentiment": 0.9925318,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2777716,
+            "title": "SharePoint Online get list of WebParts using PowerShell",
+            "link": "https://docs.microsoft.com/answers/questions/194481/sharepoint-online-get-list-of-webparts-using-power.html",
+            "create_date": "1607648092",
+            "question_id": "194481",
+            "platform": "microsoft q&a",
+            "owner_id": "283893",
+            "answer_count": 3,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1607656406",
+            "raw_status": "Answered",
+            "irt_include_comment": 4220,
+            "irt_exclude_comment": 4220,
+            "view_count": 17,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-11T04:02:27.043",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4896185,
+            "question_id_key": "2777716",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-12-11T04:03:10.19",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1829519,
+                "qid": 2777716,
+                "question_id": "194481",
+                "platform": "microsoft q&a",
+                "parent_id": "194481",
+                "parent_type": "question",
+                "post_id": "194481",
+                "create_date": "1607648092",
+                "sentiment": 0.00105422735,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1829778,
+                "qid": 2777716,
+                "question_id": "194481",
+                "platform": "microsoft q&a",
+                "parent_id": "194481",
+                "parent_type": "question",
+                "post_id": "194663",
+                "create_date": "1607656406",
+                "sentiment": 0.170842111,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 931970,
+                "alias": "v-mekong",
+                "qid": "2777716",
+                "ut": 105,
+                "log_at": "2020-12-11T09:43:17.913",
+                "comment": "Subjective: SharePoint Online get list of WebParts using PowerShell\n\n===================\n \n<Describe the question or the issue in your own words>\n \nSharePoint Online get list of WebParts using PowerShell\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @JesperHoegsdal,\nPer my experience, Get-PnPWebPart can only get webpart from classical page. it's not suitable for modern page. You can use below cmdlets to get webpart on modern page:\nGet-PnPClientSideComponent -Page 'Home'\n \nor: https://www.c-sharpcorner.com/blogs/add-remove-and-get-all-webparts-from-modern-site-page-using-pnp-powershell\n1.\t $page= Get-PnPClientSidePage -Identity \"Home.aspx\"\n2.\t $webParts = $page.Controls  \n3.\t #if there are more than one webparts  \n4.\t foreach($webpart in $webparts) {  \n5.\t     Write - Host \"WebPart Id \"  \n6.\t     $webpart.InstanceId  \n7.\t     Write - Host \"Title \"  \n8.\t     $webpart.Title  \n9.\t }  \nNote: If you get empty output, please edit the Home page and republish it.\n \nThanks\nHi @JesperHoegsdalCloudFixers-4976，\nGet-PnPWebPart Returns all webparts defined on the given page. Since your home page (/SitePages/Home.aspx) does not have added any web part, it will output an empty variable.\nIf you want to get installed webpart in the site, you may consider using following cmdlets:\n1.\t Get-PnPApp\n2.\t Get-PnPApp|Where-Object {$_.InstalledVersion -ne $null}\n\n\n \n \nOr:\n1.\t Get-PnPAppInstance\n\n\nReferences:\n•\thttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/get-pnpappinstance?view=sharepoint-ps\n•\thttps://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/get-pnpapp?view=sharepoint-ps\nBest Regards,\n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2781963,
+            "title": "Hiding or removing  ScriptResource.axd and WebResource.axd",
+            "link": "https://docs.microsoft.com/answers/questions/197733/hiding-or-removing-scriptresourceaxd-and-webresour.html",
+            "create_date": "1607958830",
+            "question_id": "197733",
+            "platform": "microsoft q&a",
+            "owner_id": "3245756",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1607985527",
+            "raw_status": "Answered",
+            "irt_include_comment": 26697,
+            "irt_exclude_comment": 26697,
+            "view_count": 2,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-14T23:00:54.367",
+            "tags": "office-sharepoint-server-administration;office-sharepoint-server-itpro",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 0,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4906491,
+            "question_id_key": "2781963",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-12-14T23:01:21.07",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1834358,
+                "qid": 2781963,
+                "question_id": "197733",
+                "platform": "microsoft q&a",
+                "parent_id": "197733",
+                "parent_type": "question",
+                "post_id": "197733",
+                "create_date": "1607958830",
+                "sentiment": 0.179007709,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2756370,
+            "title": "Can we use script-src 'self' 'unsafe-inline' in the content security policy of the .net application?",
+            "link": "https://docs.microsoft.com/answers/questions/178173/can-we-use-script-src-39self39-39unsafe-inline39-i.html",
+            "create_date": "1606473849",
+            "question_id": "178173",
+            "platform": "microsoft q&a",
+            "owner_id": "4809955",
+            "answer_count": 0,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1606725199",
+            "raw_status": "New Issue",
+            "irt_include_comment": 251350,
+            "irt_exclude_comment": null,
+            "view_count": 23,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-30T09:01:54.09",
+            "tags": "dotnet-csharp;office-sharepoint-server-development",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 30,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4857460,
+            "question_id_key": "2756370",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-12-01T07:36:22.637",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1803280,
+                "qid": 2756370,
+                "question_id": "178173",
+                "platform": "microsoft q&a",
+                "parent_id": "178173",
+                "parent_type": "question",
+                "post_id": "178173",
+                "create_date": "1606473849",
+                "sentiment": 0.009174556,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 933047,
+                "alias": "v-mekong",
+                "qid": "2756370",
+                "ut": 30,
+                "log_at": "2020-12-14T09:48:58.077",
+                "comment": "Can we use script-src 'self' 'unsafe-inline' in the content security policy of the .net application?\nHi @MSUserV-0780,\n\nWhat kind of application you're developing? Is it an isolated web site or an SP solution? How do you configure script-src? And what about the error msg?\n\nThanks",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2720857,
+            "title": "How to use Custom login Page (.aspx) as link FBA for Windows Authentication  instead of Pop up in Sharepoint 2019",
+            "link": "https://docs.microsoft.com/answers/questions/153678/how-to-use-custom-login-page-aspx-as-link-fba-for.html",
+            "create_date": "1604649383",
+            "question_id": "153678",
+            "platform": "microsoft q&a",
+            "owner_id": "4532353",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1607334294",
+            "raw_status": "Answered",
+            "irt_include_comment": 43378,
+            "irt_exclude_comment": 43378,
+            "view_count": 95,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-07T10:00:44.477",
+            "tags": "office-sharepoint-server-administration;office-sharepoint-server-development;office-sharepoint-server-customization",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 0,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4879172,
+            "question_id_key": "2720857",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-12-07T10:01:06.217",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1762651,
+                "qid": 2720857,
+                "question_id": "153678",
+                "platform": "microsoft q&a",
+                "parent_id": "153678",
+                "parent_type": "question",
+                "post_id": "153678",
+                "create_date": "1604649383",
+                "sentiment": 0.0192562938,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    },
+    {
+        "question": {
+            "id": 2726153,
+            "title": "Custom web api calling through JQuery showing CORS error in sharePoint 2019 onpremise.",
+            "link": "https://docs.microsoft.com/answers/questions/157352/custom-web-api-calling-through-jquery-showing-cors.html",
+            "create_date": "1604988155",
+            "question_id": "157352",
+            "platform": "microsoft q&a",
+            "owner_id": "4276865",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1605072556",
+            "raw_status": "Answered",
+            "irt_include_comment": 74539,
+            "irt_exclude_comment": 74539,
+            "view_count": 25,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-11T07:04:18.727",
+            "tags": "office-sharepoint-server-development",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 106,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4782503,
+            "question_id_key": "2726153",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-11-11T06:02:58.557",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1768845,
+                "qid": 2726153,
+                "question_id": "157352",
+                "platform": "microsoft q&a",
+                "parent_id": "157352",
+                "parent_type": "question",
+                "post_id": "157352",
+                "create_date": "1604988155",
+                "sentiment": 0.04931867,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 905358,
+                "alias": "v-mekong",
+                "qid": "2726153",
+                "ut": 106,
+                "log_at": "2020-11-11T09:46:28.25",
+                "comment": "Subjective: Custom web api calling through JQuery showing CORS error in sharePoint 2019 onpremise.\n\n===================\n \n<Describe the question or the issue in your own words>\n \nSp 2019 cors issue\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @MohammadJaved-1868,\nThis is a CORS issue. Only when the protocol, host and port is the same, then it could be considered as the Same Origin Policy.\nYou may need to modify some settings on the Web config file or rewrite the IIS rules. Please check below similar thread:\n•\thttps://social.msdn.microsoft.com/Forums/office/en-US/cea8a653-f805-4ff7-8407-1b89dadbfed2/sharepoint-cross-domain-issue-edge-browser?forum=sharepointdevelopment\nIf you want to exactly math the specified url, you can change the catch url condition in inbound rule like below:\n1.\t <rules>\n2.\t         <rule name=\"inboundrule\" patternSyntax=\"ECMAScript\" stopProcessing=\"true\">\n3.\t           <match url=\".*\" />\n4.\t           <conditions logicalGrouping=\"MatchAll\">\n5.\t                         <add input=\"{HTTP_ORIGIN}\" pattern=\"(http(s)?://((.+\\.)?andyweb2\\.azurewebsites\\.net|(.+\\.)?ggg\\.devchatline\\.com))\" />\n6.\t                         <add input=\"{REQUEST_METHOD}\" pattern=\"^OPTIONS$\" />\n7.\t           </conditions>\n8.\t           <action type=\"CustomResponse\" statusCode=\"200\" statusReason=\"Preflight\" statusDescription=\"Preflights\" />\n9.\t         </rule>\n10.\t </rules>\n\n\n*Note that not forgot to replace the pattern with your own value.\nMore reference:\n•\thttps://social.technet.microsoft.com/Forums/en-US/9ae5ea28-5e46-4192-953d-d6142b1d060a/cors-change-in-sharepoint-server-2016?forum=SP2016\nBest Regards,\n \n   \n \n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "APAC"
+    },
+    {
+        "question": {
+            "id": 2733774,
+            "title": "sharepoint 2019 development path",
+            "link": "https://docs.microsoft.com/answers/questions/162544/sharepoint-2019-development-path.html",
+            "create_date": "1605295531",
+            "question_id": "162544",
+            "platform": "microsoft q&a",
+            "owner_id": "1854686",
+            "answer_count": 3,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1605577555",
+            "raw_status": "New Issue",
+            "irt_include_comment": 78817,
+            "irt_exclude_comment": 78817,
+            "view_count": 16,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-17T02:00:35.393",
+            "tags": "office-sharepoint-server-development",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4804105,
+            "question_id_key": "2733774",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-11-17T01:46:07.46",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1777385,
+                "qid": 2733774,
+                "question_id": "162544",
+                "platform": "microsoft q&a",
+                "parent_id": "162544",
+                "parent_type": "question",
+                "post_id": "162544",
+                "create_date": "1605295531",
+                "sentiment": 0.134342134,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1781062,
+                "qid": 2733774,
+                "question_id": "162544",
+                "platform": "microsoft q&a",
+                "parent_id": "162544",
+                "parent_type": "question",
+                "post_id": "164509",
+                "create_date": "1605552612",
+                "sentiment": 0.999560952,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 911930,
+                "alias": "v-mekong",
+                "qid": "2733774",
+                "ut": 105,
+                "log_at": "2020-11-17T09:52:52.78",
+                "comment": "Subjective: sharepoint 2019 development path\n\n===================\n \n<Describe the question or the issue in your own words>\n \nAsk something about sp2019 modern development\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \nHi @RaniKummari-5346,\nJSlink customization is for the classic experience. It's not suitable for modern experience. Instead it's recommeded to use SPFx in modern UI, including SPFx web part and SPFx extension.\n•\tMigrating from JSLink to SharePoint Framework extensions\nYou may also use CSOM/Rest API or SSOM to build solutions.\nBest Regards,\nHi @RaniKummari-5346,\nSP 2019 both retains modern and classical experience. You can switch the default experience for lists and libraries from new or classic.\nhttps://support.microsoft.com/en-us/office/switch-the-default-experience-for-lists-and-libraries-from-new-or-classic-66dac24b-4177-4775-bf50-3d267318caa9\nSPFx cannot fully replace all functionality on list forms. In fact modern list forms have no much customization options. But you can add command bars on list/library to redirect or response the 'new item' click.\n•\thttps://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/building-simple-cmdset-with-dialog-api#debug-your-listview-command-set\nThanks\nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2739461,
+            "title": "Count total number of records via SP List web api  Ajax or getJSON",
+            "link": "https://docs.microsoft.com/answers/questions/166159/count-total-number-of-records-via-sp-list-web-api.html",
+            "create_date": "1605655598",
+            "question_id": "166159",
+            "platform": "microsoft q&a",
+            "owner_id": "3222640",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1605862903",
+            "raw_status": "New Issue",
+            "irt_include_comment": 9352,
+            "irt_exclude_comment": null,
+            "view_count": 22,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-20T10:07:13.517",
+            "tags": "office-sharepoint-online;office-sharepoint-server-development;office-sharepoint-server-customization",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Self-Answered",
+            "color": null,
+            "ut": 51,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4825790,
+            "question_id_key": "2739461",
+            "status": "5",
+            "alias": "v-mekong",
+            "log_at": "2020-11-23T01:15:06.43",
+            "activity": true,
+            "action_rule": {
+                "id": 5,
+                "rule_name": "Self-Answered",
+                "is_visible": true,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1783905,
+                "qid": 2739461,
+                "question_id": "166159",
+                "platform": "microsoft q&a",
+                "parent_id": "166159",
+                "parent_type": "question",
+                "post_id": "166159",
+                "create_date": "1605655598",
+                "sentiment": 0.9357423,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            },
+            {
+                "id": 1789534,
+                "qid": 2739461,
+                "question_id": "166159",
+                "platform": "microsoft q&a",
+                "parent_id": "166159",
+                "parent_type": "question",
+                "post_id": "169596",
+                "create_date": "1605855218",
+                "sentiment": 0.9997816,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 924458,
+                "alias": "v-mekong",
+                "qid": "2739461",
+                "ut": 51,
+                "log_at": "2020-12-02T09:45:33.95",
+                "comment": "Hi @ShridharHegde-2034,\n\nSorry i did not understand. Is \".../employee/reportees\" a 3rd party web api? will it return emp_manager property? How does it assoicate with the second API?\n\nHi @ShridharHegde-2034,\n\nSeems that you have resolved this issue. So I converted your comment to answer. You can mark it as Answer to enclose this issue and help others who stuck in similar issues to get answered quickly.\n\nThanks",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "US"
+    },
+    {
+        "question": {
+            "id": 2762958,
+            "title": "Microsoft Graph Java SDK - Unable to read shared files on Share point",
+            "link": "https://docs.microsoft.com/answers/questions/182906/microsoft-graph-java-sdk-unable-to-read-shared-fil.html",
+            "create_date": "1606890666",
+            "question_id": "182906",
+            "platform": "microsoft q&a",
+            "owner_id": "2133692",
+            "answer_count": 1,
+            "suggested_answer_count": null,
+            "is_answered": true,
+            "last_activity_date": "1606935757",
+            "raw_status": "Answered",
+            "irt_include_comment": 45091,
+            "irt_exclude_comment": 45091,
+            "view_count": 15,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-12-03T05:12:37.527",
+            "tags": "office-sharepoint-online;microsoft-graph-sdk;microsoft-graph-sites-lists",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Answered",
+            "color": null,
+            "ut": 0,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4866000,
+            "question_id_key": "2762958",
+            "status": "8",
+            "alias": "system",
+            "log_at": "2020-12-03T05:12:56.33",
+            "activity": true,
+            "action_rule": {
+                "id": 8,
+                "rule_name": "Answered",
+                "is_visible": false,
+                "platform": "se",
+                "color": "green"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1810822,
+                "qid": 2762958,
+                "question_id": "182906",
+                "platform": "microsoft q&a",
+                "parent_id": "182906",
+                "parent_type": "question",
+                "post_id": "182906",
+                "create_date": "1606890666",
+                "sentiment": 0.9748122,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "APAC"
+    },
+    {
+        "question": {
+            "id": 2733318,
+            "title": "Hide text in modern page using CSS - SharePoint Online",
+            "link": "https://docs.microsoft.com/answers/questions/162159/hide-text-in-modern-page-using-css-sharepoint-onli.html",
+            "create_date": "1605276403",
+            "question_id": "162159",
+            "platform": "microsoft q&a",
+            "owner_id": "3207268",
+            "answer_count": 2,
+            "suggested_answer_count": null,
+            "is_answered": false,
+            "last_activity_date": "1605493145",
+            "raw_status": "New Issue",
+            "irt_include_comment": 98299,
+            "irt_exclude_comment": 98299,
+            "view_count": 14,
+            "up_vote": 0,
+            "down_vote": 0,
+            "favorite": null,
+            "last_sync_time": "2020-11-16T03:03:43.95",
+            "tags": "office-sharepoint-online",
+            "queue_id": "8",
+            "body_plain": null,
+            "body_markdown": null,
+            "body_html": null,
+            "priority": null,
+            "sla_expires_at": null,
+            "is_meet": null,
+            "status": "Waiting for Customer",
+            "color": null,
+            "ut": 105,
+            "ticket_id": null,
+            "area_path": null,
+            "user_type": null,
+            "opened_date": null,
+            "closed_date": null
+        },
+        "owner": {
+            "id": "e034cfbb-86d8-4408-9bbb-269983d9ace4",
+            "name": "Baker Kong",
+            "alias": "v-mekong",
+            "active": true,
+            "created_by": "system",
+            "created_at": "2019-10-24T02:04:01.243",
+            "updated_by": "system",
+            "updated_at": "2019-10-24T02:04:01.243",
+            "roles": [
+            ],
+            "forum_profiles": [
+            ],
+            "teams": [
+            ],
+            "subscriptions": [
+            ],
+            "products": [
+            ]
+        },
+        "status": {
+            "id": 4799481,
+            "question_id_key": "2733318",
+            "status": "1",
+            "alias": "v-mekong",
+            "log_at": "2020-11-16T02:19:22.233",
+            "activity": true,
+            "action_rule": {
+                "id": 1,
+                "rule_name": "Waiting for Customer",
+                "is_visible": true,
+                "platform": "se",
+                "color": "grey-900"
+            }
+        },
+        "sentiments": [
+            {
+                "id": 1776741,
+                "qid": 2733318,
+                "question_id": "162159",
+                "platform": "microsoft q&a",
+                "parent_id": "162159",
+                "parent_type": "question",
+                "post_id": "162159",
+                "create_date": "1605276403",
+                "sentiment": 0.0299409926,
+                "comment": null,
+                "by_op": true,
+                "by_css": false
+            }
+        ],
+        "labors": [
+            {
+                "id": 910760,
+                "alias": "v-mekong",
+                "qid": "2733318",
+                "ut": 105,
+                "log_at": "2020-11-16T09:47:31.853",
+                "comment": "Subjective: Hide text in modern page using CSS - SharePoint Online\n\n===================\n \n<Describe the question or the issue in your own words>\n \nModern script web part embed css to hide some elements\n \nObjective:\n===================\n \n<User's environment>\n \nSharePoint online\n \nAssessment:\n===================\n         \n<What you have done on this case>\n \n Hi @GeorgeThomas-9228,\nWhen the page is in edit mode, the style or elements may be different from when it's published. It seems that the style has not been embedded. Could you please generate the CSS selector through other attributes? Such as id tabindex?\nAfter saving the CSS code, please full refresh the page to load the CSS.\n \nBest Regards,\n \nPlan:\n===================\nProvide suggestions/solutions to customer, and wait for customer’s response.",
+                "rule_id": 0,
+                "platform": "microsoft q&a",
+                "product_id": null,
+                "product": null,
+                "labor_rule": {
+                    "id": 0,
+                    "name": "Thread Handling",
+                    "type": "Community Thread Related",
+                    "is_deliver": true,
+                    "is_deleted": false
+                }
+            }
+        ],
+        "question_priority": null,
+        "fqr": null,
+        "quality_review": null,
+        "products": [
+        ],
+        "answers": null,
+        "comments": null,
+        "shift": "EMEA"
+    }
+]

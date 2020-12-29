@@ -1,4 +1,5 @@
-﻿using PT_tool.Models;
+﻿using Newtonsoft.Json;
+using PT_tool.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace PT_tool.Controllers
         }
 
         // GET: Question/Create
-        public ActionResult GetAllQuestions(string S_date, string E_date)
+        public ActionResult GetAllQuestions(string start, string end)
         {
             var token = HttpContext.Session["token"];
             //fake data
@@ -30,7 +31,7 @@ namespace PT_tool.Controllers
             var questionlist= new QuestionDetail[] {new QuestionDetail()}
 
             return PartialView();
-        }        
+        }
 
         // GET: Question/Edit/5
         public ActionResult Edit(int id)
