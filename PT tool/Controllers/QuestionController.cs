@@ -21,17 +21,16 @@ namespace PT_tool.Controllers
         {
             return View();
         }
-
-        // GET: Question/Create
+      
         public ActionResult GetAllQuestions(string start, string end)
         {
             var token = HttpContext.Session["token"];
             //fake data
-            
-            var questionlist= new QuestionDetail[] {new QuestionDetail()}
+            var jsontxt = Properties.Resources.demo;
+            List<QuestionDetail> questionList = JsonConvert.DeserializeObject<List<QuestionDetail>>(jsontxt);
 
-            return PartialView();
-        }
+            return PartialView(questionList);
+        }     
 
         // GET: Question/Edit/5
         public ActionResult Edit(int id)
