@@ -21,8 +21,7 @@ namespace PT_tool.Controllers
         {
             return View();
         }
-
-        // GET: Question/Create
+      
         public ActionResult GetAllQuestions(string start, string end)
         {
             var token = HttpContext.Session["token"];
@@ -30,25 +29,8 @@ namespace PT_tool.Controllers
             var jsontxt = Properties.Resources.demo;
             List<QuestionDetail> questionList = JsonConvert.DeserializeObject<List<QuestionDetail>>(jsontxt);
 
-            
             return PartialView(questionList);
-        }
-
-        // POST: Question/Create
-        [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        }     
 
         // GET: Question/Edit/5
         public ActionResult Edit(int id)
