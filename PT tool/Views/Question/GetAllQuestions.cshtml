@@ -1,5 +1,9 @@
 ﻿@model IEnumerable<PT_tool.Models.QuestionDetail>
 
+@Scripts.Render("~/bundles/treeview")
+@Styles.Render("~/Content/css-tree")
+@Styles.Render("~/Content/fontawesome")
+
 <ul class="list-group">
 
     @foreach (var item in Model)
@@ -10,11 +14,59 @@
                 <div class="card-body">
                     <h7 class="card-title">Special title treatment</h7>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@item.question.id">Add Topic</button>
                 </div>
             </div>
         </li>
     }
 
-
 </ul>
+
+
+<script type="text/javascript">
+    let data = [
+        {
+            label: 'Animals',
+            value: 'animals',
+            children: [
+                {
+                    label: 'Puppy the dog',
+                    value: 'puppy'
+                }, {
+                    label: 'Pussy the cat',
+                    value: 'pussy'
+                }
+            ]
+        }, {
+            label: 'People',
+            value: 'people',
+            children: [
+                {
+                    label: 'Tom',
+                    value: 'tom',
+                    children: [
+                        {
+                            label: 'Sue',
+                            value: 'sue'
+                        }
+                    ]
+                }, {
+                    label: 'Cathy',
+                    value: 'cathy'
+                }
+            ]
+        }
+    ];
+
+    let options = {
+        searchBox: $('.has-search>input[placeholder="Search"]'),
+    };
+
+    $(function () {
+
+        console.log("fefefe");
+        $('#tree').simpleTree(options, data);
+    });
+
+</script>
+
