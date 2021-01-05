@@ -32,7 +32,7 @@ namespace PT_tool.Controllers
         public ActionResult SetSettings(string token)
         {
             ViewBag.Message = "This is Settings page.";
-            HttpContext.Session["token"] = "Bearer " + token;
+            HttpContext.Session["token"] = token;
 
             return RedirectToAction("Index", "Question");
         }

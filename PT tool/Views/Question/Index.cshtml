@@ -57,8 +57,6 @@
 @section scripts{
     <script type="text/javascript">
 
-
-
         $(function () {
 
             var $datepicker1 = $('#datepicker1').datepicker({
@@ -76,6 +74,14 @@
             //Search button
             $("#btnSearch").click(function () {
 
+                // set  loading state
+                var that_btn = $(this);
+                that_btn.prop("disabled", true);
+                    // add spinner to button
+                that_btn.html(
+                    `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...`
+                );
+
                 let startDate = $datepicker1.value() + " +08:00";
                 let endDate = $datepicker2.value() + " +08:00";
 
@@ -92,6 +98,11 @@
                     })
                     .fail(function (xhr, status) {
                         alert(status);
+                    })
+                    .always(function () {
+                        // reset the button
+                        that_btn.prop("disabled", false);
+                        that_btn.html('Search');
                     });
             });
 
@@ -110,7 +121,7 @@
                 {
                     label: 'SharePoint',
                     value: '23494',
-                    expanded:true,
+                    expanded: true,
                     children: [
                         {
                             label: 'FAST Search for SharePoint 2010',
