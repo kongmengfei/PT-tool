@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -36,5 +37,15 @@ namespace PT_tool.Controllers
 
             }
         }
+
+        //Topic fake data:
+        //public JsonResult Getfake()
+        //{
+        //    var fakedatajson = Properties.Resources.topic;
+        //    var fakedatamodel = JsonConvert.DeserializeObject(fakedatajson);
+
+        //}
+
+
     }
 }

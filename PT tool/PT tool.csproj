@@ -133,6 +133,7 @@
     <Compile Include="Models\Owner.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\QuestionDetail.cs" />
+    <Compile Include="Models\QuestionTopic.cs" />
     <Compile Include="Models\Status_E.cs" />
     <Compile Include="Models\Topic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -206,6 +207,7 @@
     <Content Include="Content\fontawesome\fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\PTtool - Web Deploy.pubxml" />
     <None Include="Resources\demo.txt" />
+    <None Include="Resources\topic.txt" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -393,10 +395,11 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\moment.min.js.map" />
     <Content Include="Scripts\moment-with-locales.min.js.map" />
-    <Content Include="Views\Question\GetAllQuestions.cshtml" />
+    <Content Include="Views\Question\GetAllQuestionsAsync.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\unitity\" />
     <Folder Include="Views\Topic\" />
   </ItemGroup>
   <ItemGroup>

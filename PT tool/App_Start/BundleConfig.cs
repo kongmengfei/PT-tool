@@ -28,7 +28,9 @@ namespace PT_tool
 
             //mine
             bundles.Add(new ScriptBundle("~/bundles/bootstrap-datetimepicker").Include(
-                        "~/Scripts/gijgo/combined/gijgo.js"));
+                        "~/Scripts/gijgo/combined/gijgo.js",
+                        "~/Scripts/gijgo/combined/messages/messages.zh-cn.js"
+                        ));
 
             bundles.Add(new StyleBundle("~/Content/css-m").Include(
                       "~/Content/gijgo/combined/gijgo.css"));
@@ -36,7 +38,7 @@ namespace PT_tool
             //            
             bundles.Add(new ScriptBundle("~/bundles/treeview").Include(
                         "~/Scripts/simpleTree.js"));
-            
+
             bundles.Add(new StyleBundle("~/Content/css-tree").Include(
                       "~/Content/simpleTree.css"));
         }

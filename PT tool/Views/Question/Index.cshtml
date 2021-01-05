@@ -57,7 +57,7 @@
 @section scripts{
     <script type="text/javascript">
 
-       
+
 
         $(function () {
 
@@ -76,13 +76,13 @@
             //Search button
             $("#btnSearch").click(function () {
 
-                let startDate = $datepicker1.value();
-                let endDate = $datepicker2.value();
+                let startDate = $datepicker1.value() + " +08:00";
+                let endDate = $datepicker2.value() + " +08:00";
 
                 console.log(startDate);
 
                 $.ajax({
-                    url: `/Question/GetAllQuestions?start=${startDate}&end=${endDate}`,
+                    url: `/Question/GetAllQuestionsAsync?start=${startDate}&end=${endDate}&subscriptions=1834`,
                     contentType: 'application/html; charset=utf-8',
                     type: 'GET',
                     dataType: 'html'
@@ -104,8 +104,69 @@
                 // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
                 var modal = $(this);
             })
-            
 
+            // treeview
+            window.data = [
+                {
+                    label: 'SharePoint',
+                    value: '23494',
+                    expanded:true,
+                    children: [
+                        {
+                            label: 'FAST Search for SharePoint 2010',
+                            value: '23495',
+                            children: [
+                                {
+                                    label: 'Cmdlets, command-line tools, and PowerShell',
+                                    value: '23496'
+                                },
+                                {
+                                    label: 'Content Sources',
+                                    value: '23497'
+                                },
+                                {
+                                    label: 'Crawling, Processing, and Indexing',
+                                    value: '23498'
+                                },
+                                {
+                                    label: 'Deployment planning and migration',
+                                    value: '23499'
+                                },
+                                {
+                                    label: 'Installation and updates',
+                                    value: '23500'
+                                },
+                                {
+                                    label: 'Other',
+                                    value: '23501'
+                                },
+                                {
+                                    label: 'Search Queries and Results',
+                                    value: '23502'
+                                }
+                            ]
+                        },
+                        {
+                            label: 'Office Online Server and Office Web Apps',
+                            value: '23503',
+                            children: [
+                                {
+                                    label: 'Installation, Configuration and Updates',
+                                    value: '23504'
+                                },
+                                {
+                                    label: 'Installation, Configuration and Updates',
+                                    value: '23504'
+                                },
+                            ]
+                        }
+                    ]
+                }
+            ];
+
+            window.options = {
+                searchBox: $('.has-search>input[placeholder="Search"]'),
+            };
         });
     </script>
 }

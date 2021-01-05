@@ -7,9 +7,12 @@ namespace PT_tool.Models
 {
     public class Topic
     {
-        public int question_id { get; set; }
-        public string platform { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public string raw { get; set; }
+        
+        public List<Topic> children { get; set; }
 
-        public object support_topic { get; set; }
+
     }
 }

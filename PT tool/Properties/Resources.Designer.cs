@@ -80,5 +80,14 @@ namespace PT_tool.Properties {
                 return ResourceManager.GetString("demo", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string topic {
+            get {
+                return ResourceManager.GetString("topic", resourceCulture);
+            }
+        }
     }
 }
