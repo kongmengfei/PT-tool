@@ -30,7 +30,7 @@
 
 @* 这是 modal dialog *@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h6 class="modal-title" id="exampleModalLabel">Add Topic</h6>
@@ -106,78 +106,33 @@
                     });
             });
 
-            //
+            
 
-            $('#exampleModal').on('show.bs.modal', function (event) {
-                var button = $(event.relatedTarget) // Button that triggered the modal
-                var recipient = button.data('whatever') // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this);
-            })
-
-            // treeview
-            window.data = [
-                {
-                    label: 'SharePoint',
-                    value: '23494',
-                    expanded: true,
-                    children: [
-                        {
-                            label: 'FAST Search for SharePoint 2010',
-                            value: '23495',
-                            children: [
-                                {
-                                    label: 'Cmdlets, command-line tools, and PowerShell',
-                                    value: '23496'
-                                },
-                                {
-                                    label: 'Content Sources',
-                                    value: '23497'
-                                },
-                                {
-                                    label: 'Crawling, Processing, and Indexing',
-                                    value: '23498'
-                                },
-                                {
-                                    label: 'Deployment planning and migration',
-                                    value: '23499'
-                                },
-                                {
-                                    label: 'Installation and updates',
-                                    value: '23500'
-                                },
-                                {
-                                    label: 'Other',
-                                    value: '23501'
-                                },
-                                {
-                                    label: 'Search Queries and Results',
-                                    value: '23502'
-                                }
-                            ]
-                        },
-                        {
-                            label: 'Office Online Server and Office Web Apps',
-                            value: '23503',
-                            children: [
-                                {
-                                    label: 'Installation, Configuration and Updates',
-                                    value: '23504'
-                                },
-                                {
-                                    label: 'Installation, Configuration and Updates',
-                                    value: '23504'
-                                },
-                            ]
-                        }
-                    ]
+            //get fake topics
+            $.ajax({
+                url: "/Topic/GetfakeTopics",
+                method: "Get",
+                headers: {
+                    'content-type': 'application/json;odata=verbose',
+                    'accept': 'application/json;odata=verbose'
+                },
+                success: function (data) {
+                    window.data = data;
+                    console.log(data);
+                },
+                error: function (error) {
+                    alert('fail');
                 }
-            ];
+            });
+
+
+            // treeview 初始化          
 
             window.options = {
                 searchBox: $('.has-search>input[placeholder="Search"]'),
             };
+
+            //end!
         });
     </script>
 }

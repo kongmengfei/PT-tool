@@ -82,7 +82,22 @@ namespace PT_tool.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to {
+        ///    &quot;question_id&quot;: &quot;182906&quot;,
+        ///    &quot;platform&quot;: &quot;microsoft q&amp;a&quot;,
+        ///    &quot;support_topic&quot;: {
+        ///        &quot;id&quot;: 23698,
+        ///        &quot;name&quot;: &quot;Office 365,Graph API&quot;,
+        ///        &quot;raw&quot;: &quot;SharePoint\\SharePoint Online\\Programmability\\Office 365,Graph API&quot;,
+        ///        &quot;active&quot;: true,
+        ///        &quot;level&quot;: 3,
+        ///        &quot;parent&quot;: 23689,
+        ///        &quot;status&quot;: null,
+        ///        &quot;remark&quot;: null,
+        ///        &quot;created_at&quot;: &quot;2019-11-28T07:37:00.27&quot;,
+        ///        &quot;created_by&quot;: &quot;jesyuan@microsoft.com&quot;,
+        ///        &quot;updated_at&quot;: &quot;2019-11-28T07:37:00.27&quot;,
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string topic {
             get {

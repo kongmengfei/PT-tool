@@ -136,6 +136,7 @@
     <Compile Include="Models\QuestionTopic.cs" />
     <Compile Include="Models\Status_E.cs" />
     <Compile Include="Models\Topic.cs" />
+    <Compile Include="Models\Unitity\Tool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -399,7 +400,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\unitity\" />
     <Folder Include="Views\Topic\" />
   </ItemGroup>
   <ItemGroup>
