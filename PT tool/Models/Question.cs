@@ -21,6 +21,10 @@ namespace PT_tool.Models
 
         [JsonConverter(typeof(UnixDateTimeConverter))]
         public DateTime create_date { get; set; }
+
+        [JsonProperty]
+        public int question_id { get; set; }
+        
         public string platform { get; set; }
 
         public int owner_id { get; set; }

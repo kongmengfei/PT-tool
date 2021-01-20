@@ -4,7 +4,6 @@ using PT_tool.Models;
 using PT_tool.Models.Unitity;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Web;
@@ -14,7 +13,7 @@ namespace PT_tool.Controllers
 {
     public class TopicController : Controller
     {
-        const string baseurl = "https://platinumapi-v2.azurewebsites.net/api/Question";
+        const string baseurl = "https://platinumapi-v2.azurewebsites.net";
         // GET: Topic
         public async System.Threading.Tasks.Task<JsonResult> GetTopicsAsync(string platform, int question_id)
         {
@@ -40,6 +39,36 @@ namespace PT_tool.Controllers
 
             }
         }
+
+        // Get supported topic
+        public ActionResult GetSupportedTopicAsync(string platform, int question_id)
+        {
+            string token = HttpContext.Session["token"].ToString();
+            using (var httpclient = new HttpClient()
+            {
+                BaseAddress = new Uri(baseurl)
+            }
+            )
+            {
+                httpclient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                httpclient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                HttpResponseMessage Res = httpclient.GetAsync($"/api/Question/SupportTopic?platform={platform}&question_id={question_id}").Result;
+                if (Res.IsSuccessStatusCode)
+                {
+                    var root = JObject.Parse(Res.Content.ReadAsStringAsync().Result);
+
+                    string raw = root["support_topic"].Type != JTokenType.Null ? root["support_topic"]["raw"].ToString() : "no topic";
+
+                    ViewBag.support_topic = raw;
+                }
+                else
+                {
+                    ViewBag.support_topic = "request fail: " + Res.StatusCode + "," + Res.ReasonPhrase;
+                }
+                return PartialView();
+            }
+        }
+
 
         //Topic fake data:
         public ContentResult GetfakeTopics()

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -24,7 +25,7 @@ namespace PT_tool.Controllers
             return View();
         }
       
-        public async System.Threading.Tasks.Task<ActionResult> GetAllQuestionsAsync(string start, string end, string subscriptions)
+        public async Task<ActionResult> GetAllQuestionsAsync(string start, string end, string subscriptions)
         {
             string token = HttpContext.Session["token"] as string;
             string baseurl = "https://platinumapi-v2.azurewebsites.net/api/Question";

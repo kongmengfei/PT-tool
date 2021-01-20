@@ -27,6 +27,17 @@ namespace PT_tool.Models
         Researching=4,
 
         [EnumMember(Value = "Self-Answered")]
-        Self_Answered=5
+        Self_Answered=5,
+
+        [EnumMember(Value = "Off-Topic")]
+        Off_Topic =7,
+
+        [EnumMember(Value = "Solution Deliver")]
+        Solution_Deliver =2,
+
+        [EnumMember(Value = "Need Follow Up")]
+        Need_Follow_Up = 47,
+
+        Deleted =6
     }
 }
