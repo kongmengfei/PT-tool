@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -24,24 +25,33 @@ namespace PT_tool.Controllers
             {
                 BaseAddress = new Uri(baseurl)
             };
-            
+
             httpclient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        // GET: Topic
-        public async System.Threading.Tasks.Task<JsonResult> GetTopicsAsync(string platform, int question_id)
+        //Submit token
+        [HttpPost]
+        public async Task<ContentResult> SubmitTopicAsync(int qid, int tid)
         {
-            HttpResponseMessage Res = await httpclient.GetAsync($"/SupportTopic?platform={platform}&question_id={question_id}");
+            string token = HttpContext.Session["token"].ToString();
+            httpclient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var jsonstr = $@"{{
+   'qid':{qid},
+   'support_topic_id':{tid}   
+}}".Replace("'", "\"");
+
+            var strCon = new StringContent(jsonstr, Encoding.UTF8, "application/json");
+            HttpResponseMessage Res = await httpclient.PostAsync($"/api/Question/SupportTopic",strCon);
             if (Res.IsSuccessStatusCode)
             {
-                return Json(Res.Content);
+                var root = JObject.Parse(await Res.Content.ReadAsStringAsync());
+                return Content(root["result"].ToString());
             }
             else
             {
-                return Json(Res);
+                return Content(Res.StatusCode+Res.ReasonPhrase);
             }
-
-
         }
 
         // Get supported topic

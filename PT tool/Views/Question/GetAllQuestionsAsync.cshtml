@@ -17,7 +17,7 @@
                     <p id="@item.question.id" title="item" data-questionid="@item.question.question_id" data-platform="@item.question.platform">
                         <label class="font-weight-bold">Supported Topic :</label>                        
                     </p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@item.question.id">Add Topic</button>
+                    <button type="button" class="btn btn-primary disabled" data-toggle="modal" data-target="#exampleModal" data-qid="@item.question.id">Add Topic</button>
                 </div>
             </div>
         </li>
@@ -29,42 +29,52 @@
 <script type="text/javascript">
 
 
-    function GetTopic() {
-
-    }
-
-    $(function () {
-
-        // load supported topic
-        $('p[Title="item"]').each((i, e) => {
-            let questionid = $(e).data('questionid');
+    function GetTopic(e) {
+        let questionid = $(e).data('questionid');
             let platform = $(e).data('platform');
             let topicurl = '@Html.Raw(@Url.Action("GetSupportedTopicAsync", "Topic", new { platform = "para1", question_id = "para2" }))'.replace("para1", encodeURIComponent(platform)).replace("para2",questionid);
 
             console.log(topicurl);
 
             $(e).load(topicurl);
+    }
+
+    $(function () {
+
+        // load supported topic
+        $('p[Title="item"]').each((i, e) => {
+            GetTopic(e);
         });
 
         console.log("初始化 treeview");
-        var tree = $('#tree').simpleTree(options, data);
-        tree.change = function (e) {
-            console.log('fewfwefwf');
-        };
+        var tree = $('#tree').simpleTree(options, data).on('simpleTree:change', function (event,selectednode) {
+            console.log(event);
+            console.log(selectednode);
+
+            if (selectednode != undefined) {
+                $('#save').attr("data-original-title", selectednode.label);
+                $('#save').data('tid', selectednode.value);
+                $('#save').prop("disabled", false);
+            } else {
+                $('#save').attr("data-original-title", "No Selected Topic");
+                $('#save').prop("disabled", true);
+            }
+        });
 
         //  弹窗 出现 事件
         $('#exampleModal').on('show.bs.modal', function (event) {
             var button = $(event.relatedTarget) // Button that triggered the modal
-            var recipient = button.data('whatever') // Extract info from data-* attributes
+            var qid = button.data('qid') // Extract info from data-* attributes
             // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
             // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
             var modal = $(this);
+            modal.find('#save').data("qid", qid);
 
             //reset tree
             console.log(tree);
             tree.clearSelection();
-            tree.collapseAll();            
-
+            tree.collapseAll();
+            tree.toggleSubtree(tree.getNodeFromValue(23494));
         });
 
 

@@ -48,7 +48,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save</button>
+                <button type="button" id="save" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="No Selected Topic">Save</button>
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@
                 // set  loading state
                 var that_btn = $(this);
                 that_btn.prop("disabled", true);
-                    // add spinner to button
+                // add spinner to button
                 that_btn.html(
                     `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...`
                 );
@@ -99,7 +99,7 @@
                     })
                     .fail(function (xhr, status) {
                         alert(status);
-                    })
+                   })
                     .always(function () {
                         // reset the button
                         that_btn.prop("disabled", false);
@@ -107,7 +107,7 @@
                     });
             });
 
-            
+
 
             //get fake topics
             $.ajax({
@@ -127,13 +127,50 @@
             });
 
 
-            // treeview 初始化          
+            // treeview 初始化
 
             window.options = {
                 searchBox: $('.has-search>input[placeholder="Search"]'),
             };
 
-            //end!
+
+            //save button
+            $('[data-toggle="tooltip"]').tooltip();
+
+            //save topic button
+            $("#save").click(function () {
+                // set  loading state
+                var that_btn = $(this);
+                that_btn.prop("disabled", true);
+                // add spinner to button
+                that_btn.html(
+                    `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Saving...`
+                );
+
+                var qid = that_btn.data("qid");
+                var tid = that_btn.data("tid");
+
+                $.ajax({
+                    url: '@Url.Action("SubmitTopicAsync", "Topic")',
+                    type: "POST",
+                    data: { qid: qid, tid: tid }
+                })
+                    .done(function (result) {
+                        $('#exampleModal').modal('hide');
+                        GetTopic($("#" + qid).get(0));
+                        alert(result);
+                    })
+                    .fail(function (xhr, status) {
+                        alert(status);
+                    })
+                    .always(function () {
+                        // reset the button
+                        that_btn.prop("disabled", false);
+                        that_btn.html('Save');
+                    });
+            });
+
+                //end!
         });
     </script>
 }
