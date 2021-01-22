@@ -14,10 +14,8 @@
                 <div class="card-body">
                     <h7 class="card-title">Special title treatment</h7>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <p id="@item.question.id">   
-                        <script>
-                             $('#@item.question.id').load('@Url.Action("GetSupportedTopicAsync", "Topic", new { platform = item.question.platform, question_id= item.question.question_id })');
-                        </script>                        
+                    <p id="@item.question.id" title="item" data-questionid="@item.question.question_id" data-platform="@item.question.platform">
+                        <label class="font-weight-bold">Supported Topic :</label>                        
                     </p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@item.question.id">Add Topic</button>
                 </div>
@@ -28,13 +26,31 @@
 </ul>
 
 
-<script type="text/javascript">    
+<script type="text/javascript">
+
+
+    function GetTopic() {
+
+    }
 
     $(function () {
 
-        console.log("fefefe");
-        var tree= $('#tree').simpleTree(options, data);
+        // load supported topic
+        $('p[Title="item"]').each((i, e) => {
+            let questionid = $(e).data('questionid');
+            let platform = $(e).data('platform');
+            let topicurl = '@Html.Raw(@Url.Action("GetSupportedTopicAsync", "Topic", new { platform = "para1", question_id = "para2" }))'.replace("para1", encodeURIComponent(platform)).replace("para2",questionid);
 
+            console.log(topicurl);
+
+            $(e).load(topicurl);
+        });
+
+        console.log("初始化 treeview");
+        var tree = $('#tree').simpleTree(options, data);
+        tree.change = function (e) {
+            console.log('fewfwefwf');
+        };
 
         //  弹窗 出现 事件
         $('#exampleModal').on('show.bs.modal', function (event) {
@@ -45,7 +61,10 @@
             var modal = $(this);
 
             //reset tree
+            console.log(tree);
             tree.clearSelection();
+            tree.collapseAll();            
+
         });
 
 
