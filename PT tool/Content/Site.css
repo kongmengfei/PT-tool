@@ -13,3 +13,11 @@
     pointer-events: none;
     color: #aaa;
 }
+
+#datepicker1 {
+    max-width: 200px;
+}
+
+#datepicker2 {
+    max-width: 200px;
+}

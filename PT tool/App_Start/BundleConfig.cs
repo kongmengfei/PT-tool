@@ -20,7 +20,7 @@ namespace PT_tool
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.bundle.min.js"));
+                      "~/Scripts/bootstrap.bundle.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
@@ -35,7 +35,14 @@ namespace PT_tool
             bundles.Add(new StyleBundle("~/Content/css-m").Include(
                       "~/Content/gijgo/combined/gijgo.css"));
 
-            //            
+            // dropdown
+            bundles.Add(new ScriptBundle("~/bundles/dropdown").Include(
+                        "~/Scripts/bootstrap-select.js"));
+
+            bundles.Add(new StyleBundle("~/Content/dropdown").Include(
+                      "~/Content/bootstrap-select.css"));
+
+            // treeview          
             bundles.Add(new ScriptBundle("~/bundles/treeview").Include(
                         "~/Scripts/simpleTree.js"));
 
